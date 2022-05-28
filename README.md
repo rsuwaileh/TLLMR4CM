@@ -1,6 +1,6 @@
 # When a Disaster Happens, We Are Ready: Location Mention Recognition from Crisis Tweets
 
-### The Datasets:
+## The datasets:
 
 We adopted three types of datasets in our work: (1) _General-purpose NER dataset_, (2) _Twitter NER dataset_, and (3) _Crisis-related multilingual Twitter LOC dataset_. We show various statistics of all the datasets in the cited publication below. 
 
@@ -26,7 +26,7 @@ For reproducibility, you need to follow these steps:
 2. **Preprocess the datasets**: You need to convert the datssets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted at our side on the data before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets, we can share with you the preprocessed and partitioned data that we have.
 
 
-### The LMR model:
+## The LMR model:
 We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/) library. To run this model, follow the steps in [this forked version](https://github.com/rsuwaileh/transformers/tree/master/examples/ner).
 
 ### Publications
