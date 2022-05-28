@@ -9,6 +9,7 @@ To prepare the datasets, you need to follow these steps:
 2. Unfortunately, the dataset preparation steps involve manual curation conducted at our side on the data before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the dataset, we can share the partitions that we have with you. 
 
 [1]. Al-Olimat, H. S., Thirunarayan, K., Shalin, V., & Sheth, A. (2018). Location name extraction from targeted text streams using gazetteer-based statistical language models. In Proceedings of the 27th International Conference on Computational Linguistics (pp. 1986–1997).
+
 [2]. Middleton, S. E., Middleton, L., & Modafferi, S. (2014). Real-time crisis mapping of natural disasters using social media. IEEE Intelligent Systems, 29, 9–17.
 
 ### The LMR model:
