@@ -38,6 +38,13 @@ We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/)
 
 ### Publications
 ```
+@article{suwaileh2022tlLMR4disaster,
+    title={When a Disaster Happens, We Are Ready: Location Mention Recognition from Crisis Tweets},
+    author={Suwaileh, Reem and Elsayed, Tamer and Imran, Muhammad and Sajjad, Hassan},
+    journal={International Journal of Disaster Risk Reduction},
+    year={2022}
+}
+
 @inproceedings{suwaileh2020tlLMR4disaster,
   title={Are We Ready for this Disaster? Towards Location Mention Recognition from Crisis Tweets},
   author={Suwaileh, Reem and Imran, Muhammad and Elsayed, Tamer and Sajjad, Hassan},
@@ -46,12 +53,6 @@ We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/)
   year={2020}
 }
 
-@article{suwaileh2022tlLMR4disaster,
-    title={When a Disaster Happens, We Are Ready: Location Mention Recognition from Crisis Tweets},
-    author={Suwaileh, Reem and Elsayed, Tamer and Imran, Muhammad and Sajjad, Hassan},
-    journal={International Journal of Disaster Risk Reduction},
-    year={2022}
-}
  
 ```
 
