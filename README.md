@@ -39,7 +39,7 @@ We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/)
 You download the best zero-shot performing models from [models](https://github.com/rsuwaileh/TLLMR4CM/tree/main/data) directory. These models trained using `Combined.joint` setup for each disaster. The models' naming format is `Combined.joint-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
 
 - The `dataset` is the 2-char code of the affected area by the target disaster: `ch`, `ho`, `lo`, `ny`, and `nz` refer to `Chennai floods 2015`, `Houston floods 2016`, `Louisiana floods 2016`, `Hurricane Sandy 2012`, and `Christchurch earthquake 2012` disaster events.  
-- The `#epochs`, `#training_batches`, and `learning_rate` are the best hyperparameters for each model. 
+- The `#epochs`, `#training_batches`, and `learning_rate` are the best hyperparameters for each model with the default `seed = 42`. 
 
 ## Publications
 ```
