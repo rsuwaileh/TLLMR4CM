@@ -57,4 +57,4 @@ We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/)
 ```
 
 ### Contact
-For any inqueries, contact Reem Suwaileh via `rs081123@qu.edu.qa`.
+Please send email to `rs081123@qu.edu.qa` if you find any bug or have any question, or any suggestions.
