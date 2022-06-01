@@ -1,11 +1,11 @@
 # When a Disaster Happens, We Are Ready: Location Mention Recognition from Crisis Tweets
 
-Towards addressing the problem of recognizing locations, i.e., Location Mention Recognition (LMR), within social media posts during such disasters, past studies mainly focused on proposing techniques that assume the availability of abundant training data at the disaster onset. In our work, we adopt the more realistic assumption that _no_ (i.e., zero-shot setting) or _as little as a few hundred_ examples (i.e., few-shot setting) from the just-occurred event is available for training. Specifically, we examine the effect of training a BERT-based LMR model on past events using different settings, datasets, languages, and geo-proximity. Extensive empirical analysis provides several insights for building an effective LMR model during disasters, including 
+Towards addressing the problem of recognizing locations, i.e., Location Mention Recognition (LMR), within social media posts during such disasters, past studies mainly focused on proposing techniques that assume the availability of abundant training data at the disaster onset. In our work, we adopt the more realistic assumption that _no_ (i.e., zero-shot setting) or _as little as a few hundred_ examples (i.e., few-shot setting) from the just-occurred event is available for training. Specifically, we examine the effect of training a BERT-based LMR model on past events using different settings, datasets, languages, and geo-proximity. The extensive empirical analysis provides several insights for building an effective LMR model during disasters, including 
 1. Twitter crisis-related and location-specific data from geographically-nearby disaster events is more useful than all other combinations of training datasets in the zero-shot monolingual setting, 
 2. using as few as 263-356 training tweets from the target language (i.e., few-shot setting) remarkably boosts the performance in the cross- and multilingual settings, and 
-3. labeling about 500 target event's tweets leads to an acceptable LMR performance, higher than F1 of 0.7, in the monolingual settings. Finally, we conduct an extensive error analysis and highlight issues related to the quality of the available datasets and weaknesses of the current model.
+3. labeling about 500 target event tweets leads to an acceptable LMR performance, higher than F1 of 0.7, in the monolingual settings. Finally, we conduct an extensive error analysis and highlight issues related to the quality of the available datasets and weaknesses of the current model.
 
-**This repository provides the steps to reproduce the experiments that we reported in the our publication.**
+**This repository provides the steps to reproduce the experiments that we reported in our publication.**
 
 ## The datasets
 
@@ -30,13 +30,18 @@ We adopted three types of datasets in our work: (1) _General-purpose NER dataset
 For reproducibility, you need to follow these steps:
 
 1. **Download the datasets** from the repository: Unfortunately, the crisis-related Twitter LMR datasets are licensed and have to be requested from the corresponding authors [3-4]. 
-2. **Preprocess the datasets**: You need to convert the datssets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted at our side on the data before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets, we can share with you the preprocessed and partitioned data that we have.
+2. **Preprocess the datasets**: You need to convert the datasets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted on our side before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets, we can share with you the preprocessed and partitioned data that we have.
 
 
 ## The LMR model:
 We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/) library. To run this model, follow the steps in [this forked version](https://github.com/rsuwaileh/transformers/tree/master/examples/ner).
 
-### Publications
+You download the best zero-shot performing models from [models](https://github.com/rsuwaileh/TLLMR4CM/tree/main/data) directory. These models trained using `Combined.joint` setup for each disaster. The models' naming format is `Combined.joint-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
+
+- The `dataset` is the 2-char code of the affected area by the target disaster: `ch`, `ho`, `lo`, `ny`, and `nz` refer to `Chennai floods 2015`, `Houston floods 2016`, `Louisiana floods 2016`, `Hurricane Sandy 2012`, and `Christchurch earthquake 2012` disaster events.  
+- The `#epochs`, `#training_batches`, and `learning_rate` are the best hyperparameters for each model. 
+
+## Publications
 ```
 @article{suwaileh2022tlLMR4disaster,
     title={When a Disaster Happens, We Are Ready: Location Mention Recognition from Crisis Tweets},
@@ -52,9 +57,7 @@ We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/)
   pages={6252--6263},
   year={2020}
 }
-
- 
 ```
 
-### Contact
-Please send email to `rs081123@qu.edu.qa` if you have any question or suggestions.
+## Contact
+Please send an email to `rs081123@qu.edu.qa` if you have any questions or suggestions.
