@@ -44,7 +44,7 @@ You can download the best zero-shot models (evaluated using F<sub>1</sub> score)
 | Target Event | `#epochs` | `#training_batches` | `learning_rate` | Download |
 |:-|:-|:-|:-|:-|
 | Chennai floods 2015 | 2 | 16 | 5e-5 | [lmr-bert-ch-e2-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/EQ8rkIXFgbFPu1tSObDeyOgBZWpRU8z7ukC0qYwig6Vf3A?e=8d1nvV) |
-| Houston floods 2016 | 3 | 16 | 5e-5 | [lmr-bert-ho-e3-b16-lr5e-5]() |
+| Houston floods 2016 | 3 | 16 | 5e-5 | [lmr-bert-ho-e3-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/ETooV66h9pZKln6vPdfm2wsBhm2TNDd5hEQf1QaP9cQ2_Q?e=6Zbxpk) |
 | Louisiana floods 2016 | 4 | 32 | 5e-5 | [lmr-bert-lo-e4-b32-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/Eb5tTDOycLtOvpi-8uMlG2EB0XDV1fEqf6AsHTiglQUhFw?e=EcF3Gj) |
 | Hurricane Sandy 2012 | 3 | 16 | 5e-5 | [lmr-bert-ny-e3-b16-lr5e-5]() |
 | Christchurch earthquake 2012 | 4 | 16 | 5e-5 | [lmr-bert-nz-e4-b16-lr5e-5]() |
