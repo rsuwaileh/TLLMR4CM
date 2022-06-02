@@ -36,10 +36,17 @@ For reproducibility, you need to follow these steps:
 ## The LMR model:
 We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/) library. To run this model, follow the steps in [this forked version](https://github.com/rsuwaileh/transformers/tree/master/examples/ner).
 
-You download the best zero-shot performing models from [models](https://github.com/rsuwaileh/TLLMR4CM/tree/main/data) directory. These models trained using `Combined.joint` setup for each disaster. The models' naming format is `Combined.joint-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
+You can download the best zero-shot performing models that are trained using `Combined.joint` setup for each disaster. The models' naming format is `Combined.joint-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
 
 - The `dataset` is the 2-char code of the affected area by the target disaster: `ch`, `ho`, `lo`, `ny`, and `nz` refer to `Chennai floods 2015`, `Houston floods 2016`, `Louisiana floods 2016`, `Hurricane Sandy 2012`, and `Christchurch earthquake 2012` disaster events.  
 - The `#epochs`, `#training_batches`, and `learning_rate` are the best hyperparameters for each model with the default `seed = 42`. 
+
+| Target Event | `#epochs` | `#training_batches` | `learning_rate` | Download |
+| Chennai floods 2015 | 2 | 16 | 5e-5 | [ch-e2-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/EQ8rkIXFgbFPu1tSObDeyOgBZWpRU8z7ukC0qYwig6Vf3A?e=8d1nvV) |
+| Houston floods 2016 | 3 | 16 | 5e-5 | [ho-e3-b16-lr5e-5]() |
+| Louisiana floods 2016 | 4 | 32 | 5e-5 | [lo-e4-b32-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/Eb5tTDOycLtOvpi-8uMlG2EB0XDV1fEqf6AsHTiglQUhFw?e=EcF3Gj) |
+| Hurricane Sandy 2012 | 3 | 16 | 5e-5 | [ny-e3-b16-lr5e-5]() |
+| Christchurch earthquake 2012 | 4 | 16 | 5e-5 | [nz-e4-b16-lr5e-5]() |
 
 ## Publications
 ```
