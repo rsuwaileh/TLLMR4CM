@@ -36,7 +36,7 @@ For reproducibility, you need to follow these steps:
 ## The LMR model:
 We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/) library. To run this model, follow the steps in [this forked version](https://github.com/rsuwaileh/transformers/tree/master/examples/ner).
 
-You can download the best zero-shot performing models that are trained using `Combined.joint` setup for each disaster. The models' naming format is `lmr-bert-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
+You can download the best zero-shot models (evaluated using F<sub>1</sub> score) that are trained under the `Combined.joint` setup for each disaster. The models' naming format is `lmr-bert-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
 
 - The `dataset` is the 2-char code of the affected area by the target disaster: `ch`, `ho`, `lo`, `ny`, and `nz` refer to `Chennai floods 2015`, `Houston floods 2016`, `Louisiana floods 2016`, `Hurricane Sandy 2012`, and `Christchurch earthquake 2012` disaster events.  
 - The `#epochs`, `#training_batches`, and `learning_rate` are the best hyperparameters for each model with the default `seed = 42`. 
