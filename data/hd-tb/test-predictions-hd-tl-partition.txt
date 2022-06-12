@@ -23,7 +23,7 @@ prayer O
 for O
 us O
 in O
-Florida O
+Florida U-LOC
 ? O
 We O
 re O
@@ -67,12 +67,12 @@ collapsed O
 construction O
 cranes O
 in O
-Miami O
+Miami U-LOC
 & O
 amp O
 ; O
-Fort O
-Lauderdale O
+Fort B-LOC
+Lauderdale L-LOC
 in O
 2017 O
 ? O
@@ -213,7 +213,7 @@ is O
 headed O
 straight O
 for O
-MAGA O
+MAGA U-LOC
 - O
 largo O
 .. O
@@ -354,8 +354,8 @@ hurricanequestions O
 I O
 live O
 in O
-Charleston O
-SC O
+Charleston U-LOC
+SC U-LOC
 and O
 went O
 shopping O
@@ -544,7 +544,7 @@ sure O
 hope O
 dorian O
 misses O
-florida O
+florida U-LOC
 , O
 that O
 was O
@@ -766,8 +766,8 @@ Slow O
 Moving O
 Dorian O
 Reaches O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 ; O
 Storm O
 Recorded O
@@ -780,16 +780,16 @@ MPH O
 https://t.co/xTI1qKNjwV O
 
 Feeding O
-South O
-Florida O
+South B-LOC
+Florida U-LOC
 helps O
 provide O
 food O
 , O
 water O
 in O
-Palm O
-Beach O
+Palm B-LOC
+Beach L-LOC
 ahead O
 of O
 potential O
@@ -909,7 +909,7 @@ generators O
 food O
 etc O
 in O
-Florida O
+Florida U-LOC
 just O
 so O
 the O
@@ -923,7 +923,7 @@ s O
 steering O
 away O
 from O
-Florida O
+Florida U-LOC
 not O
 as O
 bad O
@@ -1077,17 +1077,17 @@ INFORMATION O
 : O
 Where O
 : O
-Ridgeland O
+Ridgeland B-LOC
 High O
 School O
 ( O
 250 O
 Jaguar O
-Trail O
+Trail L-LOC
 , O
-Ridgeland O
+Ridgeland B-LOC
 , O
-SC O
+SC U-LOC
 29936 O
 ) O
 Opened O
@@ -1139,7 +1139,7 @@ with O
 She O
 s O
 a O
-Bahamian O
+Bahamian U-LOC
 community O
 activist O
 helping O
@@ -1152,7 +1152,7 @@ in O
 need O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 # O
 HurricaneDorian O
@@ -1245,7 +1245,7 @@ offering O
 free O
 rides O
 to O
-Florida O
+Florida U-LOC
 s O
 shelters O
 as O
@@ -1279,12 +1279,12 @@ in O
 That O
 s O
 the O
-old O
-Bahamas O
-Princess O
-Hotel O
-and O
-Resort O
+old B-LOC
+Bahamas B-LOC
+Princess I-LOC
+Hotel L-LOC
+and I-LOC
+Resort L-LOC
 , O
 that O
 never O
@@ -1298,8 +1298,8 @@ been O
 prepping O
 here O
 in O
-Myrtle O
-Beach O
+Myrtle B-LOC
+Beach L-LOC
 since O
 last O
 week O
@@ -1350,7 +1350,7 @@ aisle O
 at O
 Aldis O
 in O
-Florida O
+Florida U-LOC
 ( O
 east O
 coast O
@@ -1366,7 +1366,7 @@ Walmart O
 , O
 Target O
 by O
-Kissimmee O
+Kissimmee U-LOC
 , O
 no O
 more O
@@ -1483,7 +1483,7 @@ to O
 shelters O
 . O
 # O
-orlando O
+orlando U-LOC
 # O
 dorian O
 # O
@@ -1496,7 +1496,7 @@ everyone O
 living O
 in O
 the O
-USA O
+USA U-LOC
 you O
 can O
 help O
@@ -1506,12 +1506,12 @@ this O
 storm O
 in O
 The O
-Bahamas O
+Bahamas U-LOC
 . O
 Right O
 now O
 , O
-Abaco O
+Abaco U-LOC
 is O
 in O
 need O
@@ -1555,8 +1555,8 @@ Video O
 coming O
 in O
 from O
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 where O
 it O
 took O
@@ -1632,7 +1632,7 @@ ones O
 . O
 Stay O
 safe O
-Florida O
+Florida U-LOC
 . O
 F O
 # O
@@ -1651,7 +1651,7 @@ Treasure O
 Coast O
 https://t.co/dFzLLCjizA O
 
-NOOOO O
+NOOOO U-LOC
 I O
 JUST O
 SPENT O
@@ -1702,7 +1702,7 @@ Dorian O
 https://t.co/qt89nBex6a O
 
 # O
-FL O
+FL U-LOC
 Equine O
 shelters O
 # O
@@ -1769,14 +1769,14 @@ thru O
 . O
 
 Multiple O
-U.S. O
+U.S. B-LOC
 Navy O
 ships O
 from O
-U.S. O
+U.S. B-LOC
 Naval O
 Station O
-Mayport O
+Mayport U-LOC
 will O
 depart O
 to O
@@ -1928,7 +1928,7 @@ it O
 Dorian O
 . O
 # O
-florida O
+florida U-LOC
 
 Please O
 , O
@@ -1944,8 +1944,8 @@ Slow O
 Moving O
 Dorian O
 Reaches O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 ; O
 Storm O
 Recorded O
@@ -1992,8 +1992,8 @@ Video O
 coming O
 in O
 from O
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 where O
 it O
 took O
@@ -2020,8 +2020,8 @@ eye O
 of O
 Dorian O
 ( O
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 is O
 destroyed O
 ) O
@@ -2036,7 +2036,7 @@ is O
 in O
 palm O
 coast O
-Florida O
+Florida U-LOC
 . O
 How O
 concerned O
@@ -2138,7 +2138,7 @@ Dorian2019 O
 # O
 HurricaneDorian2019 O
 
-Florida O
+Florida U-LOC
 and O
 its O
 partners O
@@ -2201,9 +2201,9 @@ a O
 nonevacuation O
 area O
 if O
-Jacksonville O
+Jacksonville U-LOC
 , O
-FL O
+FL U-LOC
 . O
 
 Jeezzzz O
@@ -2225,7 +2225,7 @@ discounted O
 cabin O
 here7 O
 # O
-Asheville O
+Asheville U-LOC
 https://t.co/ig69p30GO1 O
 
 Will O
@@ -2326,11 +2326,11 @@ not O
 good O
 https://t.co/sIJJ4NdBGB O
 
-Bahamas O
+Bahamas U-LOC
 Consulate O
 in O
 # O
-Atlanta O
+Atlanta U-LOC
 is O
 accepting O
 emergency O
@@ -2338,7 +2338,7 @@ supplies O
 for O
 The O
 # O
-Bahamas O
+Bahamas U-LOC
 as O
 part O
 of O
@@ -2348,14 +2348,14 @@ relief O
 efforts O
 . O
 2970 O
-Clairmont O
+Clairmont B-LOC
 Road O
 NE O
 Suite O
 290 O
-Atlanta O
+Atlanta U-LOC
 , O
-GA O
+GA U-LOC
 30329 O
 Please O
 send O
@@ -2436,8 +2436,8 @@ rebuild O
 abacostrong O
 https://t.co/eV3pgQY7rE O
 
-Grand O
-Bahamia O
+Grand B-LOC
+Bahamia L-LOC
 under O
 water O
 # O
@@ -2466,7 +2466,7 @@ picture O
 # O
 HurricaneDorian O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
 Freeport O
 # O
@@ -2545,8 +2545,8 @@ fantastic O
 food O
 at O
 the O
-Daytona O
-Beach O
+Daytona B-LOC
+Beach L-LOC
 A1A O
 location O
 . O
@@ -2674,7 +2674,7 @@ chefs O
 deployed O
 in O
 south O
-Florida O
+Florida U-LOC
 . O
 https://t.co/pTOQZRldMo O
 
@@ -2754,7 +2754,7 @@ at O
 every O
 facility O
 . O
-Florida O
+Florida U-LOC
 : O
 tel O
 : O
@@ -2772,7 +2772,7 @@ fax O
 597 O
 - O
 3742 O
-Georgia O
+Georgia U-LOC
 : O
 Gov. O
 tel O
@@ -2797,8 +2797,8 @@ tel O
 504 O
 - O
 7312 O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 : O
 Gov O
 tel O
@@ -2822,13 +2822,13 @@ https://t.co/4aCDts93lK O
 Hurricane O
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 https://t.co/4nNzeeI8qG O
 
 Damage O
@@ -2840,7 +2840,7 @@ planes O
 inside O
 Freeport O
 , O
-Bahamas O
+Bahamas U-LOC
 airport O
 . O
 # O
@@ -2858,10 +2858,10 @@ from O
 Dockmasters O
 Shop O
 on O
-Savannah O
+Savannah U-LOC
 Hwy O
 in O
-Ravenel O
+Ravenel U-LOC
 . O
 My O
 friend O
@@ -2900,7 +2900,7 @@ no O
 damage O
 to O
 its O
-Florida O
+Florida U-LOC
 farms O
 after O
 Dorian O
@@ -2914,8 +2914,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -2933,7 +2933,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/lqksOFXRBt O
 
@@ -2952,10 +2952,10 @@ a O
 little O
 longer O
 @ O
-Virginia O
-Beach O
+Virginia B-LOC
+Beach L-LOC
 , O
-Virginia O
+Virginia U-LOC
 https://t.co/AdIabR71PL O
 
 In O
@@ -2991,8 +2991,8 @@ Trapped O
 By O
 Dorian O
 In O
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 , O
 Including O
 Meteorologist O
@@ -3019,8 +3019,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -3038,7 +3038,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/uRnk5QePMw O
 https://t.co/rJcClmxY2q O
@@ -3069,8 +3069,8 @@ this O
 https://t.co/FfvU4XHUZy O
 
 A O
-Flagler O
-Beach O
+Flagler B-LOC
+Beach L-LOC
 home O
 without O
 a O
@@ -3194,8 +3194,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -3213,7 +3213,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/YKTYrajvEs O
 
@@ -3225,19 +3225,19 @@ released O
 by O
 friends O
 of O
-Green O
-Turtle O
-Cay O
+Green B-LOC
+Turtle I-LOC
+Cay L-LOC
 shows O
 how O
 # O
 HurricaneDorian O
 destroyed O
-Abacos O
+Abacos U-LOC
 and O
 Grand O
 , O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/DbDHg0Cd2C O
 
@@ -3249,7 +3249,7 @@ severely O
 impact O
 parts O
 of O
-Atlantic O
+Atlantic U-LOC
 this O
 weekend O
 . O
@@ -3411,12 +3411,12 @@ people O
 in O
 attics O
 in O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 . O
 The O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 National O
 Guard O
 is O
@@ -3431,10 +3431,10 @@ water O
 and O
 food O
 to O
-Ocracoke O
-Island O
+Ocracoke B-LOC
+Island L-LOC
 from O
-Kinston O
+Kinston U-LOC
 . O
 https://t.co/E8g3AjSb6o O
 
@@ -3444,10 +3444,10 @@ from O
 # O
 HurricaneDorian O
 in O
-Elizabeth O
-City O
+Elizabeth B-LOC
+City L-LOC
 , O
-NC O
+NC U-LOC
 . O
 @AllisonWTKR O
 is O
@@ -3457,7 +3457,7 @@ street O
 from O
 Northeastern O
 High O
-School O
+School L-LOC
 where O
 a O
 large O
@@ -3492,9 +3492,9 @@ provided O
 by O
 Dorian O
 in O
-Kannapolis O
+Kannapolis U-LOC
 , O
-NC O
+NC U-LOC
 @wxbrad O
 @stormchaserQ O
 @fox46amanda O
@@ -3563,7 +3563,7 @@ no O
 damage O
 to O
 its O
-Florida O
+Florida U-LOC
 farms O
 after O
 Dorian O
@@ -3618,10 +3618,10 @@ essential O
 items O
 into O
 the O
-Abacos O
+Abacos U-LOC
 and O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama U-LOC
 . O
 No O
 conversation O
@@ -3641,7 +3641,7 @@ efforts O
 to O
 help O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 wake O
@@ -3737,8 +3737,8 @@ As O
 # O
 HurricaneDorian O
 leaves O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 , O
 Gov. O
 Cooper O
@@ -3754,8 +3754,8 @@ help O
 has O
 arrived O
 at O
-Ocracoke O
-Island O
+Ocracoke B-LOC
+Island L-LOC
 and O
 food O
 and O
@@ -3821,7 +3821,7 @@ would O
 have O
 expected O
 in O
-Alabama O
+Alabama U-LOC
 if O
 Dorian O
 had O
@@ -3830,7 +3830,7 @@ it O
 after O
 crossing O
 over O
-Florida O
+Florida U-LOC
 ... O
 
 @FixMetroMDT O
@@ -3875,7 +3875,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -3898,7 +3898,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -3906,7 +3906,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -3949,7 +3949,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -3957,7 +3957,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -3994,7 +3994,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -4002,7 +4002,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -4049,7 +4049,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -4057,7 +4057,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -4112,9 +4112,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -4261,7 +4261,7 @@ water O
 and O
 food O
 to O
-Ocracoke O
+Ocracoke U-LOC
 . O
 The O
 island O
@@ -4301,7 +4301,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -4378,7 +4378,7 @@ rises O
 to O
 20 O
 in O
-Bahamas O
+Bahamas U-LOC
 as O
 US O
 monitors O
@@ -4428,7 +4428,7 @@ https://t.co/sbPBD1vBT8 O
 
 HURACAIN O
 DORIAN O
-BAHAMAS O
+BAHAMAS U-LOC
 RELIEF O
 Join O
 the O
@@ -4459,20 +4459,20 @@ Drop O
 Off O
 Locations O
 for O
-Miami O
+Miami U-LOC
 Dade O
-County O
+County L-LOC
 : O
 101 O
-W. O
+W. I-LOC
 Flagler O
 Street O
-MIAMI O
+MIAMI U-LOC
 5400 O
 NW O
 22 O
 Ave O
-MIAMI O
+MIAMI U-LOC
 8008 O
 NW O
 14 O
@@ -4505,7 +4505,7 @@ HurricaneDorain O
 # O
 ClimateChange O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
 ClimateAction O
 # O
@@ -4540,7 +4540,7 @@ says O
 , O
 who O
 is O
-Bahamian O
+Bahamian U-LOC
 - O
 American O
 . O
@@ -4620,8 +4620,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -4639,7 +4639,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/eMs0pK2hYr O
 
@@ -4661,13 +4661,13 @@ https://t.co/jF74aPDT97 O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/ZiPN9aYICo O
 via O
@@ -4818,9 +4818,9 @@ damaged O
 . O
 https://t.co/VlXQ4Mol0D O
 
-NC O
-Hanover O
-County O
+NC U-LOC
+Hanover I-LOC
+County L-LOC
 Shelters O
 https://t.co/C9vIAkF26 O
 t O
@@ -4879,7 +4879,7 @@ D O
 # O
 bethechurch O
 # O
-bahamas O
+bahamas U-LOC
 Bring O
 your O
 donation O
@@ -5029,7 +5029,7 @@ your O
 - O
 star O
 reviewed O
-Florida O
+Florida U-LOC
 properties O
 . O
 Trump O
@@ -5053,12 +5053,12 @@ a O
 turn O
 , O
 South O
-Florida O
+Florida U-LOC
 is O
 in O
 the O
 clear O
-Miami O
+Miami U-LOC
 after O
 buying O
 food O
@@ -5119,7 +5119,7 @@ by O
 private O
 chopper O
 to O
-Nassau O
+Nassau U-LOC
 as O
 well O
 as O
@@ -5147,11 +5147,11 @@ make O
 it O
 to O
 # O
-Nassau O
+Nassau U-LOC
 # O
 HurricaneDorian O
 # O
-Abaco O
+Abaco U-LOC
 # O
 ottawa O
 # O
@@ -5171,7 +5171,7 @@ by O
 private O
 chopper O
 to O
-Nassau O
+Nassau U-LOC
 as O
 well O
 as O
@@ -5199,11 +5199,11 @@ make O
 it O
 to O
 # O
-Nassau O
+Nassau U-LOC
 # O
 HurricaneDorian O
 # O
-Abaco O
+Abaco U-LOC
 # O
 ottawa O
 # O
@@ -5322,14 +5322,14 @@ of O
 Hurricane O
 Dorian O
 in O
-Atlantic O
-Canada O
+Atlantic B-LOC
+Canada L-LOC
 https://t.co/rdoFICBi0P O
 
 Water O
 funnel O
 in O
-Lawrencetown O
+Lawrencetown B-LOC
 # O
 NSStorm O
 # O
@@ -5341,7 +5341,7 @@ https://t.co/h8LxdI2PmL O
 Water O
 funnel O
 in O
-Lawrencetown O
+Lawrencetown B-LOC
 , O
 compliments O
 of O
@@ -5371,8 +5371,8 @@ https://t.co/ygQD9V3ih8 O
 Dorian O
 is O
 hitting O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 tonight O
 , O
 causing O
@@ -5391,8 +5391,8 @@ of O
 Hurricane O
 Dorian O
 in O
-Atlantic O
-Canada O
+Atlantic B-LOC
+Canada L-LOC
 https://t.co/FbFCX5HXMk O
 
 PHOTOS O
@@ -5404,8 +5404,8 @@ of O
 Hurricane O
 Dorian O
 in O
-Atlantic O
-Canada O
+Atlantic B-LOC
+Canada L-LOC
 https://t.co/yud7IuA4YQ O
 
 Donnie O
@@ -5414,8 +5414,8 @@ Shumate O
 a O
 spokesman O
 for O
-Hyde O
-County O
+Hyde B-LOC
+County L-LOC
 , O
 told O
 @jeffhampton56 O
@@ -5431,8 +5431,8 @@ are O
 being O
 brought O
 to O
-Ocracoke O
-Island O
+Ocracoke B-LOC
+Island L-LOC
 by O
 ferry O
 . O
@@ -5497,8 +5497,8 @@ you O
 can O
 . O
 
-St. O
-Augustine O
+St. B-LOC
+Augustine I-LOC
 Pier O
 is O
 back O
@@ -5579,10 +5579,10 @@ a O
 temporary O
 shelter O
 in O
-March O
-Harbour O
+March B-LOC
+Harbour L-LOC
 , O
-Bahamas O
+Bahamas U-LOC
 . O
 She O
 is O
@@ -5634,10 +5634,10 @@ a O
 temporary O
 shelter O
 in O
-March O
-Harbour O
+March B-LOC
+Harbour L-LOC
 , O
-Bahamas O
+Bahamas U-LOC
 . O
 She O
 is O
@@ -5677,8 +5677,8 @@ HurricaneDorian O
 The O
 islands O
 of O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 assess O
 the O
 damage O
@@ -5718,9 +5718,9 @@ my O
 home O
 town O
 of O
-Halifax O
+Halifax U-LOC
 , O
-NS O
+NS U-LOC
 collapsed O
 under O
 the O
@@ -5743,16 +5743,16 @@ cocaine O
 washed O
 ashore O
 in O
-Florida O
+Florida U-LOC
 coming O
 from O
 destroyed O
 Chinese O
 port O
 at O
-Abaco O
+Abaco U-LOC
 in O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/j9SjrvJnu7 O
 
@@ -5768,8 +5768,8 @@ serious O
 damage O
 behind O
 in O
-Atlantic O
-Canada O
+Atlantic B-LOC
+Canada L-LOC
 https://t.co/3yYHxpoNUO O
 
 # O
@@ -5835,9 +5835,9 @@ destroyed O
 the O
 pier O
 at O
-Kill O
-Devil O
-Hills O
+Kill B-LOC
+Devil I-LOC
+Hills L-LOC
 . O
 These O
 remnants O
@@ -5890,7 +5890,7 @@ are O
 now O
 safe O
 in O
-Nassau O
+Nassau U-LOC
 but O
 we O
 will O
@@ -6037,8 +6037,8 @@ to O
 the O
 town O
 of O
-High O
-Rock O
+High B-LOC
+Rock L-LOC
 to O
 look O
 for O
@@ -6078,7 +6078,7 @@ Health O
 Organization O
 . O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
 HurricaneDorian O
 https://t.co/BlEKwvPBI7 O
@@ -6093,7 +6093,7 @@ the O
 Islands O
 of O
 the O
-Bahamas O
+Bahamas U-LOC
 on O
 Sept. O
 9 O
@@ -6146,8 +6146,8 @@ As O
 Dorian O
 traversed O
 the O
-Canadian O
-Maritimes O
+Canadian B-LOC
+Maritimes L-LOC
 this O
 weekend O
 , O
@@ -6157,10 +6157,10 @@ crane O
 collapsed O
 in O
 # O
-Halifax O
+Halifax U-LOC
 , O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 . O
 https://t.co/ALNRZJkTqH O
 
@@ -6170,8 +6170,8 @@ collapsed O
 onto O
 buildings O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 because O
 of O
 high O
@@ -6213,15 +6213,15 @@ Disaster O
 # O
 StAugustine O
 # O
-Florida O
+Florida U-LOC
 # O
-SouthCarolina O
+SouthCarolina U-LOC
 # O
-NorthCarolina O
+NorthCarolina U-LOC
 # O
 OuterBanks O
 # O
-Virginia O
+Virginia U-LOC
 # O
 DorianNC O
 # O
@@ -6277,8 +6277,8 @@ https://t.co/pnXcp5fMSx O
 # O
 HurricaneDorian O
 hits O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 On O
 September O
 7 O
@@ -6294,7 +6294,7 @@ crane O
 collapsed O
 in O
 downtown O
-Halifax O
+Halifax U-LOC
 . O
 https://t.co/xir52wqfeJ O
 
@@ -6319,11 +6319,11 @@ a O
 temporary O
 shelter O
 in O
-March O
-Harbour O
+March B-LOC
+Harbour L-LOC
 , O
 # O
-Bahamas O
+Bahamas U-LOC
 . O
 She O
 is O
@@ -6443,11 +6443,11 @@ shelter O
 & O
 gt O
 ; O
-Ocracoke O
-Island O
+Ocracoke B-LOC
+Island L-LOC
 and O
-Hatteras O
-Island O
+Hatteras B-LOC
+Island L-LOC
 were O
 terribly O
 damaged O
@@ -6492,8 +6492,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -6502,8 +6502,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/rtCRTxymXF O
@@ -6536,8 +6536,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -6546,8 +6546,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/H6xBIW4Ka0 O
@@ -6580,8 +6580,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -6590,8 +6590,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/8ptvrEhA8x O
@@ -6626,8 +6626,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -6636,8 +6636,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/SJ7tYlSvre O
@@ -6662,8 +6662,8 @@ Dorian O
 https://t.co/ahICl0ruK7 O
 
 The O
-Carteret O
-County O
+Carteret B-LOC
+County L-LOC
 Carteret O
 Consolidated O
 Human O
@@ -6751,21 +6751,21 @@ Red O
 Row O
 Houses O
 in O
-Sydney O
-Mines O
+Sydney B-LOC
+Mines L-LOC
 . O
 @KyleMooreCTV O
 reports O
 . O
 https://t.co/bIlQOcmMFG O
 # O
-CapeBreton O
+CapeBreton U-LOC
 # O
 Dorian2019 O
 # O
 dorianNS O
 
-Canada O
+Canada U-LOC
 - O
 Dorian O
 damage O
@@ -6774,11 +6774,11 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotias O
+Nova B-LOC
+Scotias L-LOC
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/In6gsCINAe O
 
 Dasani O
@@ -6878,7 +6878,7 @@ show O
 up O
 7E O
 # O
-floridianlife O
+floridianlife U-LOC
 
 While O
 the O
@@ -6956,7 +6956,7 @@ thing O
 that O
 happened O
 to O
-Florida O
+Florida U-LOC
 . O
 You O
 did O
@@ -7097,8 +7097,8 @@ OANN O
 After O
 returning O
 from O
-Camp O
-David O
+Camp B-LOC
+David L-LOC
 , O
 Pres O
 . O
@@ -7309,9 +7309,9 @@ us O
 # O
 Dorian O
 # O
-Abaco O
+Abaco U-LOC
 
-Florida O
+Florida U-LOC
 getting O
 ready O
 to O
@@ -7349,7 +7349,7 @@ BePrepared O
 # O
 HaveAPlan O
 # O
-Florida O
+Florida U-LOC
 
 Water O
 snobs O
@@ -7521,9 +7521,9 @@ pet O
 friendly O
 shelters O
 in O
-Baker O
-County O
-Florida O
+Baker B-LOC
+County L-LOC
+Florida U-LOC
 ! O
 
 When O
@@ -7535,7 +7535,7 @@ out O
 of O
 water O
 in O
-Miami O
+Miami U-LOC
 # O
 HurricaneDorian O
 
@@ -7557,15 +7557,15 @@ Offering O
 Free O
 Rides O
 To O
-Florida O
+Florida U-LOC
 Shelters O
 https://t.co/L2XizJzkX7 O
 
 We O
 urge O
 all O
-South O
-Carolinians O
+South B-LOC
+Carolinians L-LOC
 to O
 be O
 vigilant O
@@ -7599,7 +7599,7 @@ Send O
 help O
 to O
 # O
-Bahamas O
+Bahamas U-LOC
 FB O
 # O
 HurricaneDorian O
@@ -7607,9 +7607,9 @@ https://t.co/Si3aamSEnY O
 
 Shelters O
 in O
-Palm O
-Beach O
-County O
+Palm B-LOC
+Beach I-LOC
+County L-LOC
 # O
 hurricandorian O
 # O
@@ -7699,7 +7699,7 @@ AUG O
 30 O
 2019 O
 DESTIN O
-FL O
+FL U-LOC
 1 O
 ) O
 CONCLUDING O
@@ -7711,7 +7711,7 @@ WITH O
 PAPERS O
 DISTRIBUTED O
 BY O
-OKALOOSA O
+OKALOOSA U-LOC
 TECH O
 COLLEGE O
 , O
@@ -7719,7 +7719,7 @@ FORT O
 WALTON O
 BEACH O
 , O
-FL O
+FL U-LOC
 & O
 amp O
 ; O
@@ -7748,11 +7748,6 @@ amp O
 ; O
 HIS O
 MOM O
-SAMMY O
-= O
-STUDYING O
-CYBERSECURITY O
-CLASSES O
 
 @TimOBrien O
 @b_b_baconator O
@@ -7783,7 +7778,7 @@ other O
 property O
 damage O
 in O
-Florida O
+Florida U-LOC
 . O
 I O
 might O
@@ -7800,7 +7795,7 @@ all O
 the O
 water O
 in O
-Tampa O
+Tampa U-LOC
 . O
 # O
 HurricaneDorian O
@@ -7844,7 +7839,7 @@ BePrepared O
 # O
 HaveAPlan O
 # O
-Florida O
+Florida U-LOC
 
 Dorian O
 now O
@@ -7858,7 +7853,7 @@ to O
 the O
 Aunt O
 in O
-Indialantic O
+Indialantic U-LOC
 . O
 Refuses O
 to O
@@ -7885,11 +7880,11 @@ of O
 land O
 between O
 the O
-Atlantic O
+Atlantic U-LOC
 and O
 the O
-Indian O
-River O
+Indian B-LOC
+River L-LOC
 . O
 Elevation O
 only O
@@ -7946,8 +7941,8 @@ Slow O
 Moving O
 Dorian O
 Reaches O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 ; O
 Storm O
 Recorded O
@@ -7996,7 +7991,7 @@ you O
 Christos O
 
 # O
-NassauCounty O
+NassauCounty U-LOC
 , O
 please O
 call O
@@ -8011,7 +8006,7 @@ E O
 # O
 Dorian2019 O
 # O
-Florida O
+Florida U-LOC
 # O
 FloridaStrong O
 
@@ -8120,8 +8115,8 @@ line O
 picks O
 up O
 at O
-Jensen O
-Beach O
+Jensen B-LOC
+Beach L-LOC
 in O
 Stuart O
 from O
@@ -8148,7 +8143,7 @@ of O
 damage O
 in O
 The O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/GIQuKzieN2 O
 https://t.co/HUOfU518mn O
@@ -8156,10 +8151,10 @@ https://t.co/HUOfU518mn O
 People O
 in O
 the O
-Fort O
-Lauderdale O
+Fort B-LOC
+Lauderdale L-LOC
 , O
-Florida O
+Florida U-LOC
 area O
 . O
 They O
@@ -8179,7 +8174,7 @@ to O
 folks O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 # O
 Dorian O
@@ -8282,15 +8277,15 @@ https://t.co/gxl25goN3Y O
 
 Feeding O
 South O
-Florida O
+Florida U-LOC
 helps O
 provide O
 food O
 , O
 water O
 in O
-Palm O
-Beach O
+Palm B-LOC
+Beach L-LOC
 ahead O
 of O
 potential O
@@ -8352,7 +8347,7 @@ Dorian O
 passed O
 over O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 # O
 PrayForTheBahamas O
@@ -8387,7 +8382,7 @@ to O
 throw O
 hands O
 in O
-Florida O
+Florida U-LOC
 ! O
 ! O
 AAA O
@@ -8398,7 +8393,7 @@ show O
 # O
 floridahurricane O
 # O
-Florida O
+Florida U-LOC
 
 Disaster O
 preparation O
@@ -8489,15 +8484,15 @@ there O
 And O
 why O
 is O
-West O
-Palm O
-Beach O
+West B-LOC
+Palm I-LOC
+Beach L-LOC
 on O
 the O
 east O
 coast O
 of O
-Florida O
+Florida U-LOC
 , O
 anyway O
 ? O
@@ -8572,7 +8567,7 @@ Dorian2019 O
 Same O
 happened O
 in O
-Miami O
+Miami U-LOC
 - O
 Dade O
 on O
@@ -8615,15 +8610,15 @@ The O
 islands O
 of O
 the O
-Abacos O
+Abacos U-LOC
 was O
 wiped O
 out O
 by O
 Dorian O
 . O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama U-LOC
 was O
 battled O
 , O
@@ -8632,7 +8627,7 @@ not O
 destroyed O
 . O
 
-Florida O
+Florida U-LOC
 avoids O
 direct O
 hit O
@@ -8648,21 +8643,21 @@ Dorian O
 # O
 HurricaneDorian O
 # O
-Florida O
+Florida U-LOC
 # O
-SouthFlorida O
+SouthFlorida U-LOC
 
 This O
 Short O
 Video O
 From O
 The O
-Abaco O
-Islands O
+Abaco B-LOC
+Islands L-LOC
 , O
 In O
 The O
-Bahamas O
+Bahamas U-LOC
 , O
 Shows O
 Damage O
@@ -8833,9 +8828,9 @@ CBSNews O
 # O
 HurricaneDorian O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
-Abaco O
+Abaco U-LOC
 # O
 OperationAirdrop O
 
@@ -8877,8 +8872,8 @@ https://t.co/xS99OSIYqG O
 
 BREAKING O
 : O
-Wayne O
-County O
+Wayne B-LOC
+County L-LOC
 Announces O
 Shelters O
 For O
@@ -8900,8 +8895,8 @@ is O
 doing O
 now O
 in O
-North O
-Carolina- O
+North B-LOC
+Carolina- L-LOC
 he O
 is O
 only O
@@ -8964,9 +8959,9 @@ chsnews O
 Dorian O
 https://t.co/UJrZx4Y55s O
 
-North O
-Myrtle O
-Beach O
+North B-LOC
+Myrtle I-LOC
+Beach L-LOC
 escapes O
 Dorian O
 without O
@@ -8982,7 +8977,7 @@ awnings O
 in O
 downtown O
 # O
-summerville O
+summerville U-LOC
 sustained O
 # O
 Dorian O
@@ -9007,7 +9002,7 @@ chsnews O
 https://t.co/FY3pLNC2B1 O
 
 # O
-Florida O
+Florida U-LOC
 officer O
 shelters O
 6 O
@@ -9097,14 +9092,14 @@ HurricaneDorian O
 Dial O
 211 O
 in O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 for O
 help O
 # O
 DorianNC O
 
-Charleston O
+Charleston U-LOC
 foods O
 ... O
 https://t.co/gby4QtX92o O
@@ -9157,8 +9152,8 @@ were O
 so O
 lucky O
 in O
-NE O
-FL O
+NE B-LOC
+FL U-LOC
 . O
 So O
 very O
@@ -9222,8 +9217,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -9241,7 +9236,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/asheVPTGVj O
 
@@ -9284,12 +9279,12 @@ medicine O
 @PhilipinDC O
 in O
 # O
-Nassau O
+Nassau U-LOC
 , O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
-Abacos O
+Abacos U-LOC
 # O
 GrandBahamaIsland O
 https://t.co/uFsa10wDD5 O
@@ -9301,13 +9296,13 @@ https://t.co/daZEw00vnw O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 https://t.co/GDDqgF9ICJ O
 
 DeSantis O
@@ -9343,13 +9338,13 @@ at O
 6 O
 at O
 4639 O
-Honeygrove O
-Rd O
+Honeygrove B-LOC
+Rd L-LOC
 and O
 2665 O
-West O
-Neck O
-Rd O
+West B-LOC
+Neck I-LOC
+Rd L-LOC
 ( O
 pet O
 friendly O
@@ -9393,8 +9388,8 @@ Trapped O
 By O
 Dorian O
 In O
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 , O
 Including O
 Meteorologist O
@@ -9410,9 +9405,9 @@ Food O
 https://t.co/2bzZldSA0 O
 G O
 
-North O
-Myrtle O
-Beach O
+North B-LOC
+Myrtle I-LOC
+Beach L-LOC
 woke O
 up O
 to O
@@ -9435,7 +9430,7 @@ living O
 in O
 areas O
 along O
-Floridas O
+Floridas U-LOC
 east O
 coast O
 will O
@@ -9464,8 +9459,8 @@ are O
 the O
 shelters O
 on O
-Johns O
-Island O
+Johns B-LOC
+Island L-LOC
 ? O
 ? O
 ? O
@@ -9605,7 +9600,7 @@ and O
 destroyed O
 the O
 # O
-Bahama O
+Bahama U-LOC
 islands O
 https://t.co/pGfd8DUWma O
 
@@ -9619,8 +9614,8 @@ while O
 Dorian O
 was O
 hitting O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 
 Please O
 Help O
@@ -9637,7 +9632,7 @@ damage O
 assessments O
 continue O
 across O
-S.C. O
+S.C. U-LOC
 https://t.co/rb37NJsnKw O
 # O
 SCNews O
@@ -9650,9 +9645,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -9738,8 +9733,8 @@ https://t.co/NAPb7FJq9q O
 Dorian O
 is O
 hitting O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 tonight O
 , O
 causing O
@@ -9763,8 +9758,8 @@ yes O
 The O
 islands O
 of O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 assess O
 the O
 damage O
@@ -9851,7 +9846,7 @@ tracking O
 Dorian O
 , O
 the O
-Florida O
+Florida U-LOC
 Panhandle O
 was O
 gassing O
@@ -9867,7 +9862,7 @@ could O
 come O
 to O
 the O
-Florida O
+Florida U-LOC
 Panhandle O
 and O
 beyond O
@@ -9890,8 +9885,8 @@ of O
 Highway O
 12 O
 on O
-Ocracoke O
-Island O
+Ocracoke B-LOC
+Island L-LOC
 destroyed O
 by O
 Dorian O
@@ -9925,7 +9920,7 @@ DUTY O
 FEES O
 to O
 # O
-ABACO O
+ABACO U-LOC
 Bahamian O
 Government O
 is O
@@ -9941,7 +9936,7 @@ help O
 https://t.co/VLbvtrfweA O
 
 A O
-Florida O
+Florida U-LOC
 family O
 fearful O
 their O
@@ -9949,7 +9944,7 @@ loved O
 one O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 did O
 nt O
 survive O
@@ -9983,7 +9978,7 @@ Water O
 Pooling O
 HWY O
 102 O
-Halifax O
+Halifax U-LOC
 https://t.co/bYwLHGiDMa O
 
 Hurricane O
@@ -10003,8 +9998,8 @@ of O
 damage O
 in O
 from O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 . O
 Download O
 item O
@@ -10044,7 +10039,7 @@ minimal O
 damage O
 here O
 in O
-Wilmington O
+Wilmington U-LOC
 ! O
 Back O
 to O
@@ -10173,7 +10168,7 @@ Please.https://t.co/46GXj8bRCL O
 # O
 Dorian O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
 BLM O
 
@@ -10237,7 +10232,7 @@ survey O
 HurricaneDorian O
 damage O
 in O
-Ocracoke O
+Ocracoke U-LOC
 . O
 Very O
 heartbreaking O
@@ -10276,7 +10271,7 @@ Andres O
 # O
 ChefsForBahamas O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
 Dorian O
 https://t.co/YIid8nskvb O
@@ -10304,8 +10299,8 @@ collapsed O
 onto O
 buildings O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 because O
 of O
 high O
@@ -10344,9 +10339,9 @@ the O
 HUSA O
 office O
 in O
-Blackburn O
+Blackburn U-LOC
 Student O
-Center O
+Center L-LOC
 . O
 Organizations O
 on O
@@ -10489,13 +10484,13 @@ Post O
 Dorian O
 Refugees O
 Fleeing O
-Bahamas O
+Bahamas U-LOC
 Ordered O
 Off O
 Ferry O
 Bound O
 for O
-U.S. O
+U.S. U-LOC
 https://t.co/N2QqFJMCjc O
 
 During O
@@ -10556,7 +10551,7 @@ huracan O
 damage O
 in O
 King O
-Square O
+Square L-LOC
 . O
 . O
 . O
@@ -10655,7 +10650,7 @@ SHIT O
 re O
 : O
 # O
-Bahamians O
+Bahamians U-LOC
 FUQ O
 U O
 # O
@@ -10719,7 +10714,7 @@ tail O
 across O
 N O
 / O
-Scotia O
+Scotia U-LOC
 https://t.co/R1wwQdn0wm O
 
 The O
@@ -10777,8 +10772,8 @@ water O
 Hurricane O
 Dorian O
 Hits O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 Coast O
 as O
 Death O
@@ -10797,7 +10792,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -10805,7 +10800,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -10838,7 +10833,7 @@ at O
 my O
 house O
 in O
-Charleston O
+Charleston U-LOC
 . O
 No O
 house O
@@ -10907,11 +10902,11 @@ a O
 temporary O
 shelter O
 in O
-March O
-Harbour O
+March B-LOC
+Harbour L-LOC
 , O
 # O
-Bahamas O
+Bahamas U-LOC
 . O
 She O
 is O
@@ -10957,12 +10952,12 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/aWkv8TN7i9 O
 
 BarackObama O
@@ -10995,8 +10990,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -11005,8 +11000,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/G7CaZvUY3Z O
@@ -11018,11 +11013,11 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotias O
+Nova B-LOC
+Scotias L-LOC
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 . O
 https://t.co/BEswz1IrkI O
 
@@ -11067,12 +11062,12 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/IkGMOSrcNV O
 
 Dorian O
@@ -11082,12 +11077,12 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/tazkSuHoCX O
 
 They O
@@ -11112,11 +11107,11 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia&amp;#8217;s O
+Nova B-LOC
+Scotia&amp;#8217;s L-LOC
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/PmMdsU1Hft O
 
 Please O
@@ -11136,8 +11131,8 @@ boat O
 ride O
 on O
 the O
-Atlantic O
-shores O
+Atlantic B-LOC
+shores L-LOC
 ... O
 Dorian O
 did O
@@ -11175,8 +11170,8 @@ Around O
 https://t.co/u6fPfNVBPV O
 https://t.co/XlhJ9niGdZ O
 
-Seminole O
-County O
+Seminole B-LOC
+County L-LOC
 Sheriff O
 Lemma O
 : O
@@ -11283,10 +11278,10 @@ food O
 
 Shelters O
 in O
-Florida O
+Florida U-LOC
 77777 O
 
-Florida O
+Florida U-LOC
 and O
 its O
 partners O
@@ -11519,7 +11514,7 @@ sure O
 hope O
 dorian O
 misses O
-florida O
+florida U-LOC
 , O
 that O
 was O
@@ -11676,7 +11671,7 @@ to O
 and O
 our O
 great O
-Florida O
+Florida U-LOC
 @GovRonDeSantis O
 While O
 preparing O
@@ -11718,7 +11713,7 @@ YOU O
 HurricaneReady O
 
 # O
-Florida O
+Florida U-LOC
 residents O
 have O
 been O
@@ -11759,11 +11754,11 @@ to O
 anyone O
 in O
 # O
-FloridaState O
+FloridaState U-LOC
 # O
-Florida O
+Florida U-LOC
 # O
-Georgia O
+Georgia U-LOC
 or O
 above O
 states O
@@ -11804,10 +11799,10 @@ https://t.co/gTgvKpvyZN O
 Stay O
 safe O
 my O
-bahamian O
+bahamian U-LOC
 friends O
 and O
-Florida O
+Florida U-LOC
 peeps O
 . O
 This O
@@ -11887,7 +11882,7 @@ before O
 # O
 HurricaneDorian O
 hits O
-Florida O
+Florida U-LOC
 : O
 @DollarTree O
 sells O
@@ -11970,7 +11965,7 @@ HurricaneDorian O
 # O
 Dorian O
 # O
-Florida O
+Florida U-LOC
 # O
 AmericanPublicU O
 # O
@@ -12126,13 +12121,13 @@ SCwx O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/nvGETdLBbP O
 via O
@@ -12148,7 +12143,7 @@ rises O
 to O
 20 O
 : O
-Bahamian O
+Bahamian U-LOC
 health O
 minister O
 https://t.co/RyFEfAx2mM O
@@ -12262,7 +12257,7 @@ the O
 # O
 coastline O
 of O
-Florida O
+Florida U-LOC
 . O
 A O
 8 O
@@ -12333,7 +12328,7 @@ group O
 run O
 by O
 the O
-Virginia O
+Virginia U-LOC
 Food O
 Allergy O
 Advocate O
@@ -12372,8 +12367,8 @@ receded O
 tremendously O
 all O
 over O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama U-LOC
 D O
 # O
 HurricaneDorian O
@@ -12431,8 +12426,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -12450,7 +12445,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/uRnk5QePMw O
 https://t.co/XDxb1aarbp O
@@ -12467,7 +12462,7 @@ supplies O
 to O
 the O
 # O
-Abacos O
+Abacos U-LOC
 very O
 quickly O
 . O
@@ -12503,7 +12498,7 @@ HurricaneDorain O
 # O
 Dorian O
 # O
-AbacoStrong O
+AbacoStrong U-LOC
 # O
 BahamasRelief O
 # O
@@ -12789,11 +12784,11 @@ https://t.co/BoiPCkzgYE O
 
 DEVASTATION O
 : O
-Abaco O
+Abaco U-LOC
 island O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 is O
 destroyed O
 . O
@@ -12821,7 +12816,7 @@ Please O
 help O
 
 Freeport O
-Bahamas O
+Bahamas U-LOC
 78Totally O
 destroyed O
 ... O
@@ -12837,7 +12832,7 @@ hurricane O
 damage O
 in O
 # O
-GrandBahama O
+GrandBahama U-LOC
 # O
 Dorian O
 this O
@@ -12892,13 +12887,13 @@ BethennyFrankel O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 https://t.co/Wmo8ALNtz6 O
 
 Place O
@@ -12970,7 +12965,7 @@ Prize O
 https://t.co/Rvj516eiSn O
 
 # O
-Bahamas O
+Bahamas U-LOC
 : O
 # O
 HurricaneDorian O
@@ -13054,8 +13049,8 @@ me O
 I O
 live O
 in O
-Panama O
-City O
+Panama B-LOC
+City L-LOC
 and O
 have O
 a O
@@ -13123,7 +13118,7 @@ already O
 onsite O
 in O
 # O
-NorthCarolina O
+NorthCarolina U-LOC
 and O
 preparing O
 food O
@@ -13230,13 +13225,13 @@ https://t.co/SHsFfYzbDA O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/9LZpXtOA92 O
 via O
@@ -13244,13 +13239,13 @@ via O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 https://t.co/20HpXoBuef O
 
 You O
@@ -13262,9 +13257,9 @@ into O
 the O
 town O
 of O
-Ocean O
-Isle O
-Beach O
+Ocean B-LOC
+Isle I-LOC
+Beach L-LOC
 . O
 The O
 bridge O
@@ -13303,7 +13298,7 @@ dorian O
 ? O
 Ok O
 my O
-florida O
+florida U-LOC
 mutuals O
 please O
 send O
@@ -13449,7 +13444,7 @@ deal O
 # O
 HurricaneDorian O
 # O
-Halifax O
+Halifax U-LOC
 # O
 NovaScotia O
 
@@ -13528,8 +13523,8 @@ collapsed O
 onto O
 buildings O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 because O
 of O
 high O
@@ -13554,8 +13549,8 @@ over O
 the O
 streets O
 of O
-Marsh O
-Harbour O
+Marsh B-LOC
+Harbour L-LOC
 People O
 have O
 broken O
@@ -13595,7 +13590,7 @@ are O
 now O
 safe O
 in O
-Nassau O
+Nassau U-LOC
 but O
 we O
 will O
@@ -13691,8 +13686,8 @@ of O
 Highway O
 12 O
 in O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 destroyed O
 by O
 # O
@@ -13703,11 +13698,11 @@ https://t.co/D98Fl68fIu O
 GrandCelebration O
 docked O
 in O
-West O
-Palm O
-Beach O
+West B-LOC
+Palm I-LOC
+Beach L-LOC
 , O
-Florida O
+Florida U-LOC
 , O
 after O
 transporting O
@@ -13717,7 +13712,7 @@ evacuees O
 from O
 the O
 # O
-Bahamas O
+Bahamas U-LOC
 , O
 with O
 the O
@@ -13769,7 +13764,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -13777,7 +13772,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -13843,7 +13838,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -13865,8 +13860,8 @@ of O
 Hurricane O
 Dorian O
 in O
-Atlantic O
-Canada O
+Atlantic B-LOC
+Canada L-LOC
 https://t.co/Cc49iQBy35 O
 
 I O
@@ -13882,7 +13877,7 @@ these O
 evacuees O
 landing O
 in O
-Florida O
+Florida U-LOC
 . O
 I O
 hope O
@@ -13901,10 +13896,10 @@ Lago O
 which O
 is O
 in O
-Palm O
-Beach O
+Palm B-LOC
+Beach L-LOC
 , O
-FL O
+FL U-LOC
 . O
 https://t.co/7vX4gSptxw O
 
@@ -13923,7 +13918,7 @@ you O
 can O
 FF O
 
-Toronto O
+Toronto U-LOC
 : O
 Devour O
 ! O
@@ -13950,10 +13945,10 @@ spawned O
 from O
 Dorian O
 in O
-North O
+North B-LOC
 and O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 where O
 neighborhoods O
 have O
@@ -14137,8 +14132,8 @@ first O
 responders O
 , O
 Downtown O
-New O
-Bern O
+New B-LOC
+Bern L-LOC
 is O
 desolate O
 . O
@@ -14163,7 +14158,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -14171,7 +14166,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -14201,9 +14196,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -14222,7 +14217,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -14246,7 +14241,7 @@ Field O
 MRH O
 ) O
 in O
-Beaufort O
+Beaufort U-LOC
 , O
 but O
 the O
@@ -14297,7 +14292,7 @@ outages O
 and O
 damage O
 in O
-Halifax O
+Halifax U-LOC
 from O
 family O
 / O
@@ -14340,8 +14335,8 @@ businesses O
 without O
 power O
 in O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 after O
 Dorian O
 https://t.co/xaxcDctQH7 O
@@ -14351,9 +14346,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -14378,8 +14373,8 @@ https://t.co/LwpmogmT3r O
 @realDonaldTrump O
 Most O
 of O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 would O
 have O
 been O
@@ -14426,8 +14421,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -14436,8 +14431,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/7YZpneRxiv O
@@ -14481,13 +14476,13 @@ Post O
 Dorian O
 Refugees O
 Fleeing O
-Bahamas O
+Bahamas U-LOC
 Ordered O
 Off O
 Ferry O
 Bound O
 for O
-U.S. O
+U.S. U-LOC
 https://t.co/uYDHcwzAR6 O
 # O
 Climaterefugees O
@@ -14577,7 +14572,7 @@ SHIT O
 re O
 : O
 # O
-Bahamians O
+Bahamians U-LOC
 FUQ O
 U O
 # O
@@ -14661,8 +14656,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -14671,8 +14666,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/9qUJnMLKGR O
@@ -14684,12 +14679,12 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/YctmrdPldA O
 
 Raccoon O
@@ -14789,8 +14784,8 @@ https://t.co/3ZOPPEeLuQ O
 
 BrevardEOC O
 Messages O
-Brevard O
-County O
+Brevard B-LOC
+County L-LOC
 Shelters O
 # O
 HurricaneDorian O
@@ -14852,7 +14847,7 @@ care O
 supies O
 . O
 
-Florida O
+Florida U-LOC
 after O
 we O
 are O
@@ -14880,9 +14875,9 @@ HurricanePrep O
 Our O
 farm O
 in O
-Valdosta O
+Valdosta U-LOC
 , O
-GA O
+GA U-LOC
 for O
 anyone O
 seeking O
@@ -15036,7 +15031,7 @@ storm O
 OK O
 , O
 # O
-DaytonaBeach O
+DaytonaBeach U-LOC
 . O
 1 O
 . O
@@ -15063,8 +15058,8 @@ https://t.co/Kr5hkw4rIj O
 
 Shelters O
 in O
-Duval O
-County O
+Duval B-LOC
+County L-LOC
 ? O
 10 O
 am O
@@ -15117,7 +15112,7 @@ or O
 drinking O
 water O
 in O
-Florida O
+Florida U-LOC
 . O
 This O
 kind O
@@ -15144,7 +15139,7 @@ chilling O
 For O
 those O
 in O
-Florida O
+Florida U-LOC
 looking O
 for O
 pet O
@@ -15234,7 +15229,7 @@ FEMA O
 is O
 working O
 w/ O
-Florida O
+Florida U-LOC
 officials O
 to O
 prepare O
@@ -15284,7 +15279,7 @@ https://t.co/fIsx9XVZDQ O
 
 Governor O
 of O
-Florida O
+Florida U-LOC
 , O
 Ron O
 DeSantis O
@@ -15373,12 +15368,12 @@ collapsed O
 construction O
 cranes O
 in O
-Miami O
+Miami U-LOC
 & O
 amp O
 ; O
-Fort O
-Lauderdale O
+Fort B-LOC
+Lauderdale L-LOC
 in O
 2017 O
 ? O
@@ -15447,7 +15442,7 @@ check O
 https://t.co/KS5NVqCjkv O
 
 # O
-AbacoIsland O
+AbacoIsland U-LOC
 showing O
 the O
 damage O
@@ -15526,10 +15521,10 @@ DAT O
 Pet O
 Friendly O
 Shelters O
-Broward O
-County O
+Broward B-LOC
+County L-LOC
 # O
-FL O
+FL U-LOC
 @reddogsusie O
 @leighjalland O
 @Indigo_Pho13 O
@@ -15546,7 +15541,6 @@ FL O
 @Kiwi_CGFX O
 @BCWildfireWkly O
 @jr3597 O
-https://t.co/IJRRBOIlwT O
 
 All O
 set O
@@ -15585,7 +15579,7 @@ to O
 go O
 . O
 # O
-floridalife O
+floridalife U-LOC
 thanks O
 to O
 Marcus O
@@ -15606,7 +15600,7 @@ very O
 bad O
 for O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 Buildings O
 WILL O
@@ -15642,7 +15636,7 @@ on O
 concern O
 groves O
 in O
-Florida O
+Florida U-LOC
 will O
 face O
 damage O
@@ -16173,13 +16167,13 @@ https://t.co/rFhC92647y O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/KUooIogIiW O
 via O
@@ -16187,13 +16181,13 @@ via O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/xU0uH8P4t5 O
 via O
@@ -16203,8 +16197,8 @@ The O
 end O
 of O
 the O
-Daytona O
-Beach O
+Daytona B-LOC
+Beach L-LOC
 pier O
 is O
 closed O
@@ -16364,8 +16358,8 @@ airport O
 at O
 Freeport O
 , O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 , O
 which O
 has O
@@ -16389,8 +16383,8 @@ Trapped O
 By O
 Dorian O
 In O
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 , O
 Including O
 Meteorologist O
@@ -16421,7 +16415,7 @@ by O
 downed O
 tree O
 in O
-Summerville O
+Summerville B-LOC
 # O
 dorian O
 https://t.co/5FWiwRIt87 O
@@ -16432,7 +16426,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -16451,9 +16445,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -16471,9 +16465,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -16491,9 +16485,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -16612,8 +16606,8 @@ businesses O
 without O
 power O
 in O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 after O
 Dorian O
 https://t.co/CFx0phah69 O
@@ -16647,7 +16641,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -16664,9 +16658,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -16711,8 +16705,8 @@ Dorian O
 
 Stay O
 safe O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 . O
 If O
 you O
@@ -16744,7 +16738,7 @@ up O
 
 Freeport O
 , O
-Bahamas O
+Bahamas U-LOC
 under O
 water O
 . O
@@ -16763,7 +16757,7 @@ Dorian O
 completely O
 destroyed O
 the O
-Bahamas O
+Bahamas U-LOC
 555 O
 
 Also O
@@ -16890,7 +16884,7 @@ talk O
 about O
 how O
 the O
-Bermuda O
+Bermuda U-LOC
 Triangle O
 destroyed O
 Dorian O
@@ -16922,11 +16916,11 @@ https://t.co/HEnMKQ1MJ1 O
 
 DEVASTATION O
 : O
-Abaco O
+Abaco U-LOC
 island O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 is O
 destroyed O
 . O
@@ -16945,11 +16939,11 @@ https://t.co/FZ9baUXfLE O
 
 DEVASTATION O
 : O
-Abaco O
+Abaco U-LOC
 island O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 is O
 destroyed O
 . O
@@ -17006,7 +17000,7 @@ her O
 Stopped O
 by O
 the O
-Savannah O
+Savannah U-LOC
 Civic O
 Center O
 , O
@@ -17099,7 +17093,7 @@ ships O
 to O
 the O
 # O
-Bahamas O
+Bahamas U-LOC
 to O
 provide O
 food O
@@ -17123,8 +17117,8 @@ that O
 goes O
 to O
 the O
-Bahama O
-islands O
+Bahama B-LOC
+islands L-LOC
 all O
 the O
 time O
@@ -17133,13 +17127,13 @@ time O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 https://t.co/2CtwBNQFH5 O
 https://t.co/HFgkEled2Q O
 
@@ -17185,9 +17179,9 @@ network O
 of O
 volunteers O
 from O
-Bahamian O
+Bahamian U-LOC
 and O
-American O
+American U-LOC
 nonprofit O
 groups O
 . O
@@ -17200,13 +17194,13 @@ Dorian O
 moves O
 offshore O
 as O
-Outer O
+Outer B-LOC
 Banks O
 assess O
 damage O
 in O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 https://t.co/H5D9nGgANr O
 # O
 FoxBusiness O
@@ -17218,8 +17212,8 @@ closes O
 beach O
 crossovers O
 in O
-Vero O
-Beach O
+Vero B-LOC
+Beach L-LOC
 https://t.co/Ka1qvYpkTm O
 
 Storm O
@@ -17363,7 +17357,7 @@ ship O
 to O
 the O
 # O
-Bahamas O
+Bahamas U-LOC
 ASAP O
 to O
 get O
@@ -17411,7 +17405,7 @@ Good O
 Luck O
 ! O
 
-Bahama O
+Bahama U-LOC
 Death O
 Toll O
 of O
@@ -17460,7 +17454,7 @@ conditions O
 in O
 the O
 # O
-Bahamas O
+Bahamas U-LOC
 after O
 # O
 HurricaneDorian O
@@ -17514,9 +17508,9 @@ we O
 re O
 heading O
 to O
-Ft O
+Ft B-LOC
 . O
-Lauderdale O
+Lauderdale L-LOC
 to O
 pick O
 up O
@@ -17635,8 +17629,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -17645,8 +17639,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/Ec3F3qc9JA O
@@ -17681,8 +17675,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -17691,8 +17685,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/kMOQDsf2s5 O
@@ -17704,11 +17698,11 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotias O
+Nova B-LOC
+Scotias L-LOC
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/R6z1V5ZMSl O
 https://t.co/uBQTo9crvd O
 
@@ -17719,11 +17713,11 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotias O
+Nova B-LOC
+Scotias L-LOC
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/IlhTHt8CHC O
 https://t.co/ejRn9xg4LU O
 
@@ -17767,7 +17761,7 @@ pet O
 food O
 . O
 # O
-bahamas O
+bahamas U-LOC
 # O
 hurricanedorian O
 # O
@@ -17813,7 +17807,7 @@ pet O
 food O
 . O
 # O
-bahamas O
+bahamas U-LOC
 # O
 hurricanedorian O
 # O
@@ -17877,9 +17871,9 @@ govt O
 today O
 . O
 
-Grand O
-Bahama O
-Island O
+Grand B-LOC
+Bahama I-LOC
+Island L-LOC
 is O
 getting O
 destroyed O
@@ -17892,7 +17886,7 @@ sold O
 at O
 @SamsClub O
 in O
-Brandon O
+Brandon U-LOC
 . O
 Just O
 an O
@@ -18003,16 +17997,16 @@ https://t.co/glOZw0oAcB O
 
 @disneyhero323 O
 Add O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 . O
 If O
 Dorian O
 keeps O
 spinning O
 , O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 will O
 also O
 sustain O
@@ -18122,7 +18116,7 @@ I O
 m O
 a O
 # O
-Florida O
+Florida U-LOC
 native O
 and O
 we O
@@ -18138,7 +18132,7 @@ We O
 evacuated O
 to O
 # O
-PuertoRico O
+PuertoRico U-LOC
 on O
 Friday O
 aand O
@@ -18348,7 +18342,7 @@ Dorianflorida O
 HurricaneDorian O
 https://t.co/usDyr3SPcA O
 
-floridians O
+floridians U-LOC
 after O
 they O
 spent O
@@ -18381,7 +18375,7 @@ To O
 everyone O
 in O
 # O
-Florida O
+Florida U-LOC
 who O
 s O
 reading O
@@ -18463,8 +18457,8 @@ been O
 prepping O
 here O
 in O
-Myrtle O
-Beach O
+Myrtle B-LOC
+Beach L-LOC
 since O
 last O
 week O
@@ -18608,8 +18602,8 @@ Slow O
 Moving O
 Dorian O
 Reaches O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 ; O
 Storm O
 Recorded O
@@ -18643,12 +18637,12 @@ enjoy O
 some O
 delicious O
 # O
-Cuban O
+Cuban U-LOC
 food O
 @cajacaliente305 O
 in O
 # O
-NorthPonce O
+NorthPonce B-LOC
 ! O
 # O
 CoralGables O
@@ -18676,8 +18670,8 @@ nice O
 Jerry O
 is O
 with O
-Glynn O
-County O
+Glynn U-LOC
+County L-LOC
 Search O
 and O
 Recovery O
@@ -18752,13 +18746,13 @@ world O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/qkbvjxwaHy O
 via O
@@ -18780,7 +18774,7 @@ and O
 destroyed O
 the O
 # O
-Bahama O
+Bahama U-LOC
 islands O
 
 @AGAlanWilson O
@@ -18841,8 +18835,8 @@ extensive O
 damage O
 at O
 the O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 International O
 Airport O
 in O
@@ -18860,7 +18854,7 @@ the O
 airport O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 https://t.co/9Yn6yEBsY0 O
 
@@ -18872,7 +18866,7 @@ Damage O
 In O
 The O
 # O
-Bahamas O
+Bahamas U-LOC
 https://t.co/ra8akKowM9 O
 
 60,000 O
@@ -18923,8 +18917,8 @@ airport O
 at O
 Freeport O
 , O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 , O
 which O
 has O
@@ -18943,13 +18937,13 @@ GrandBahama O
 bahamas O
 https://t.co/Ab5AbeX8rG O
 
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 awaits O
 Hurricane O
 Dorian O
 as O
-Bahamas O
+Bahamas U-LOC
 death O
 toll O
 hits O
@@ -19172,8 +19166,8 @@ As O
 HurricaneDorian O
 moves O
 toward O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 , O
 it O
 s O
@@ -19291,13 +19285,13 @@ navy O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/nW6bcslCOE O
 via O
@@ -19450,7 +19444,7 @@ already O
 onsite O
 in O
 # O
-NorthCarolina O
+NorthCarolina U-LOC
 , O
 preparing O
 food O
@@ -19629,15 +19623,15 @@ help O
 https://t.co/aRWuD4nUiJ O
 
 The O
-North O
-Shore O
-Animal O
-League O
+North B-LOC
+Shore I-LOC
+Animal I-LOC
+League L-LOC
 is O
 in O
-Conway O
+Conway U-LOC
 , O
-SC O
+SC U-LOC
 , O
 delivering O
 towels O
@@ -19816,7 +19810,7 @@ holding O
 up O
 in O
 the O
-FL O
+FL U-LOC
 beaches O
 . O
 They O
@@ -19844,8 +19838,8 @@ shelters O
 Dorian O
 https://t.co/qgCBI3i3ub O
 
-Indian O
-River O
+Indian B-LOC
+River I-LOC
 Citrus O
 League O
 says O
@@ -19894,7 +19888,7 @@ severely O
 impact O
 parts O
 of O
-Atlantic O
+Atlantic U-LOC
 this O
 weekend O
 . O
@@ -19968,7 +19962,7 @@ https://t.co/cqKetBqq2h O
 
 Only O
 in O
-Florida O
+Florida U-LOC
 do O
 you O
 hear O
@@ -19994,11 +19988,11 @@ Dorian O
 @FCN2go O
 DEVASTATION O
 : O
-Abaco O
+Abaco U-LOC
 island O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 is O
 destroyed O
 . O
@@ -20031,14 +20025,14 @@ it O
 get O
 destroyed O
 
-Homestead O
+Homestead U-LOC
 , O
-FL O
+FL U-LOC
 after O
 Andrew O
 and O
 the O
-Bahamas O
+Bahamas U-LOC
 after O
 Dorian O
 . O
@@ -20113,8 +20107,8 @@ Hurricane O
 Dorian O
 Damage O
 In O
-North O
-Carolina O
+North B-LOC
+Carolina L-LOC
 https://t.co/2uvYcJ59E1 O
 https://t.co/sOCWoC0CKz O
 
@@ -20134,8 +20128,8 @@ system O
 in O
 Freeport O
 , O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 . O
 Thank O
 God O
@@ -20240,7 +20234,7 @@ did O
 hit O
 and O
 destroyed O
-Alabama O
+Alabama U-LOC
 . O
 # O
 PresidentQueeg O
@@ -20254,8 +20248,8 @@ shows O
 damage O
 left O
 on O
-Outer O
-Banks O
+Outer B-LOC
+Banks L-LOC
 in O
 Dorian O
 s O
@@ -20302,7 +20296,7 @@ not O
 need O
 you O
 in O
-Charleston O
+Charleston U-LOC
 ? O
 I O
 m O
@@ -20339,12 +20333,12 @@ https://t.co/SeWJ3BUIsd O
 
 Shelters O
 in O
-Florida O
+Florida U-LOC
 
 For O
 those O
 in O
-Florida O
+Florida U-LOC
 looking O
 for O
 pet O
@@ -20376,7 +20370,7 @@ gone O
 # O
 publix O
 # O
-florida O
+florida U-LOC
 # O
 hurricanedorian O
 # O
@@ -20392,9 +20386,9 @@ Publix O
 Super O
 Market O
 at O
-St. O
-Johns O
-Plaza O
+St. B-LOC
+Johns I-LOC
+Plaza L-LOC
 https://t.co/KRIcdTAnVm O
 
 Make O
@@ -20458,7 +20452,7 @@ lived O
 in O
 Freeport O
 , O
-Bahamas O
+Bahamas U-LOC
 for O
 2 O
 years O
@@ -20487,7 +20481,7 @@ call O
 the O
 City O
 of O
-Cornelia O
+Cornelia U-LOC
 if O
 you O
 need O
@@ -20520,7 +20514,7 @@ you O
 https://t.co/8oY7c0BprI O
 
 @JmeSunSlave O
-Florida O
+Florida U-LOC
 mythical O
 beast O
 here O
@@ -20530,7 +20524,7 @@ has O
 passed O
 most O
 of O
-Florida O
+Florida U-LOC
 without O
 damage O
 . O
@@ -20550,7 +20544,7 @@ The O
 video O
 from O
 # O
-bahamasdorian O
+bahamasdorian U-LOC
 is O
 awful O
 . O
@@ -20584,7 +20578,7 @@ at O
 every O
 facility O
 . O
-Florida O
+Florida U-LOC
 : O
 tel O
 : O
@@ -20602,7 +20596,7 @@ fax O
 597 O
 - O
 3742 O
-Georgia O
+Georgia U-LOC
 : O
 Gov. O
 tel O
@@ -20627,8 +20621,8 @@ tel O
 504 O
 - O
 7312 O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 : O
 Gov O
 tel O
@@ -20647,9 +20641,9 @@ you O
 can O
 . O
 # O
-Bahamas O
+Bahamas U-LOC
 # O
-BAHAMASTRONG O
+BAHAMASTRONG U-LOC
 https://t.co/c5JbIijQRG O
 
 Parts O
@@ -20657,8 +20651,8 @@ of O
 Highway O
 12 O
 on O
-Ocracoke O
-Island O
+Ocracoke B-LOC
+Island L-LOC
 destroyed O
 by O
 Dorian O
@@ -20667,9 +20661,9 @@ https://t.co/rKMm6kK1Yd O
 @SFLRedCross O
 working O
 alongside O
-Palm O
-Beach O
-County O
+Palm B-LOC
+Beach I-LOC
+County L-LOC
 Division O
 of O
 Emergency O
@@ -20683,7 +20677,7 @@ comfortable O
 since O
 arrival O
 from O
-Bahamas O
+Bahamas U-LOC
 . O
 Offering O
 safe O
@@ -20892,13 +20886,13 @@ Post O
 Dorian O
 Refugees O
 Fleeing O
-Bahamas O
+Bahamas U-LOC
 Ordered O
 Off O
 Ferry O
 Bound O
 for O
-U.S. O
+U.S. U-LOC
 https://t.co/68ebA3unuC O
 
 # O
@@ -20985,8 +20979,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -20995,8 +20989,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/B3sBtWs5r3 O
@@ -21032,8 +21026,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -21042,8 +21036,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/nqhdX36i4p O
@@ -21055,8 +21049,8 @@ than O
 first O
 thought O
 for O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 apple O
 crop O
@@ -21084,12 +21078,12 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/FHMxWYPmJQ O
 
 My O
@@ -21106,7 +21100,7 @@ shops O
 are O
 closing O
 in O
-Naples O
+Naples U-LOC
 so O
 he O
 will O
@@ -21163,7 +21157,7 @@ no O
 longer O
 coming O
 through O
-Florida O
+Florida U-LOC
 ! O
 ! O
 ! O
@@ -21259,9 +21253,9 @@ locals O
 here O
 in O
 # O
-Sarasota O
+Sarasota U-LOC
 , O
-FL O
+FL U-LOC
 . O
 
 Shit O
@@ -21336,7 +21330,7 @@ water O
 JAX O
 or O
 # O
-CentralFlorida O
+CentralFlorida U-LOC
 ? O
 # O
 HurricaneDorian O
@@ -21387,14 +21381,14 @@ Dorian O
 @DonKeehotey O
 https://t.co/qhbL0akeIo O
 
-Palm O
-Beach O
+Palm B-LOC
+Beach L-LOC
 Sheriff O
 trying O
 to O
 assure O
 Brown O
-Americans O
+Americans L-LOC
 that O
 LEO O
 wo O
@@ -21424,7 +21418,7 @@ shelters O
 . O
 
 # O
-Florida O
+Florida U-LOC
 residents O
 who O
 get O
@@ -21456,8 +21450,8 @@ For O
 # O
 Dorian O
 ... O
-Martin O
-County O
+Martin B-LOC
+County L-LOC
 opening O
 shelters O
 at O
@@ -21576,7 +21570,7 @@ whole O
 family O
 go O
 down O
-Florida O
+Florida U-LOC
 or O
 the O
 coast O
@@ -21625,9 +21619,9 @@ or O
 rebuild O
 . O
 # O
-MyrtleBeach O
+MyrtleBeach U-LOC
 # O
-HoldenBeach O
+HoldenBeach U-LOC
 # O
 HurricaneDorian O
 # O
@@ -21689,7 +21683,7 @@ discounted O
 cabin O
 here7 O
 # O
-Asheville O
+Asheville U-LOC
 
 Dasani O
 is O
@@ -21808,7 +21802,7 @@ Pet O
 friendly O
 shelters O
 In O
-Florida O
+Florida U-LOC
 # O
 Dorian O
 https://t.co/TZAc32Oz6R O
@@ -21844,7 +21838,7 @@ video O
 out O
 of O
 # O
-Abacoisland O
+Abacoisland U-LOC
 showing O
 the O
 damage O
@@ -21951,7 +21945,7 @@ any O
 of O
 his O
 personal O
-Florida O
+Florida U-LOC
 properties O
 are O
 damaged O
@@ -22042,7 +22036,7 @@ FFF#Dorian2019 O
 Get O
 now O
 # O
-Florida O
+Florida U-LOC
 ! O
 medications, O
 , O
@@ -22068,7 +22062,7 @@ https://t.co/DDASJW8Y3r O
 
 # O
 lovemycity O
-Miami O
+Miami U-LOC
 our O
 @MiamiDadeCounty O
 @CityofMiami O
@@ -22195,7 +22189,7 @@ Dontleavethembehind O
 # O
 HurricaneDorian O
 # O
-Florida O
+Florida U-LOC
 # O
 PetFriendlyShelters O
 
@@ -22327,8 +22321,8 @@ through O
 # O
 Dorian O
 
-Marsh O
-Harbor O
+Marsh B-LOC
+Harbor L-LOC
 need O
 immediate O
 food O
@@ -22362,10 +22356,10 @@ remains O
 People O
 in O
 the O
-Fort O
-Lauderdale O
+Fort B-LOC
+Lauderdale L-LOC
 , O
-Florida O
+Florida U-LOC
 area O
 . O
 They O
@@ -22385,7 +22379,7 @@ to O
 folks O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 . O
 # O
 Dorian O
@@ -22397,7 +22391,7 @@ dorianbahamas O
 Key O
 cog O
 in O
-Florida O
+Florida U-LOC
 food O
 chain O
 . O
@@ -22405,9 +22399,9 @@ chain O
 Shelters O
 in O
 # O
-MartinCounty O
+MartinCounty U-LOC
 # O
-FL O
+FL U-LOC
 are O
 opening O
 ahead O
@@ -22671,8 +22665,8 @@ Slow O
 Moving O
 Dorian O
 Reaches O
-Grand O
-Bahama O
+Grand B-LOC
+Bahama L-LOC
 ; O
 Storm O
 Recorded O
@@ -22692,9 +22686,9 @@ live O
 just O
 north O
 of O
-Savannah O
+Savannah U-LOC
 , O
-Georgia O
+Georgia U-LOC
 , O
 we O
 are O
@@ -22802,7 +22796,7 @@ here O
 # O
 oakislandnc O
 # O
-northcarolina O
+northcarolina U-LOC
 # O
 cockatoo O
 # O
@@ -22962,8 +22956,8 @@ First O
 drone O
 shots O
 of O
-Avalon O
-Pier O
+Avalon B-LOC
+Pier L-LOC
 damage O
 # O
 HurricaneDorian O
@@ -22976,7 +22970,7 @@ Dorian O
 police O
 drive O
 through O
-Savannah O
+Savannah U-LOC
 handing O
 out O
 food O
@@ -22994,9 +22988,9 @@ and O
 water O
 ferried O
 to O
-Outer O
-Banks O
-island O
+Outer B-LOC
+Banks I-LOC
+island L-LOC
 cut O
 off O
 by O
@@ -23110,11 +23104,11 @@ https://t.co/0zs4Z9EwH1 O
 
 DEVASTATION O
 : O
-Abaco O
+Abaco U-LOC
 island O
 in O
 the O
-Bahamas O
+Bahamas U-LOC
 is O
 destroyed O
 . O
@@ -23136,7 +23130,7 @@ sandbags O
 distributed O
 in O
 # O
-Charleston O
+Charleston U-LOC
 ahead O
 of O
 # O
@@ -23172,18 +23166,18 @@ limes O
 . O
 :) O
 @ O
-Port O
-Saint O
-John O
+Port B-LOC
+Saint I-LOC
+John L-LOC
 , O
-Florida O
+Florida U-LOC
 https://t.co/THQcNnHOLO O
 
 Items O
 needed O
 for O
 # O
-BahamasRelief O
+BahamasRelief U-LOC
 include O
 : O
 -Batteries O
@@ -23241,11 +23235,11 @@ now O
 . O
 
 Maybe O
-Florida O
+Florida U-LOC
 should O
 pay O
 the O
-Bahamas O
+Bahamas U-LOC
 for O
 the O
 damage O
@@ -23342,13 +23336,13 @@ find O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/vGOZoUuCpf O
 via O
@@ -23392,13 +23386,13 @@ https://t.co/MjsrIsRJm0 O
 
 Dorian O
 parallels O
-Florida O
+Florida U-LOC
 while O
 death O
 toll O
 rises O
 in O
-Bahamas O
+Bahamas U-LOC
 : O
 https://t.co/LeU3iVXPd3 O
 via O
@@ -23556,7 +23550,7 @@ with O
 our O
 partners O
 in O
-Florida O
+Florida U-LOC
 to O
 provide O
 shelter O
@@ -23564,7 +23558,7 @@ for O
 evacuees O
 from O
 the O
-Bahamas O
+Bahamas U-LOC
 in O
 the O
 aftermath O
@@ -23620,8 +23614,8 @@ of O
 Hurricane O
 Dorian O
 in O
-Atlantic O
-Canada O
+Atlantic B-LOC
+Canada L-LOC
 https://t.co/bHTB2frFfC O
 
 @AlphLukau O
@@ -23629,9 +23623,9 @@ Cover O
 the O
 land O
 of O
-Africa O
+Africa U-LOC
 , O
-Nassaus O
+Nassaus U-LOC
 that O
 Dorian O
 destroyed O
@@ -23650,7 +23644,7 @@ these O
 evacuees O
 landing O
 in O
-Florida O
+Florida U-LOC
 . O
 I O
 hope O
@@ -23669,10 +23663,10 @@ Lago O
 which O
 is O
 in O
-Palm O
-Beach O
+Palm B-LOC
+Beach L-LOC
 , O
-FL O
+FL U-LOC
 . O
 
 The O
@@ -23819,8 +23813,8 @@ collapsed O
 onto O
 buildings O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 because O
 of O
 high O
@@ -24014,8 +24008,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -24024,8 +24018,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/GaAJq6i0Te O
@@ -24062,8 +24056,8 @@ for O
 a O
 trip O
 to O
-Disney O
-World O
+Disney B-LOC
+World L-LOC
 and O
 spent O
 it O
@@ -24072,8 +24066,8 @@ food O
 and O
 water O
 for O
-South O
-Carolina O
+South B-LOC
+Carolina L-LOC
 evacuees O
 . O
 https://t.co/GYWXqSDoyb O
@@ -24101,8 +24095,8 @@ damage O
 https://t.co/q6HhazfURR O
 
 The O
-Carteret O
-County O
+Carteret B-LOC
+County L-LOC
 Carteret O
 Consolidated O
 Human O
@@ -24146,11 +24140,11 @@ than O
 first O
 thought O
 in O
-Nova O
-Scotia O
+Nova B-LOC
+Scotia L-LOC
 s O
 famed O
-Annapolis O
-Valley O
+Annapolis B-LOC
+Valley L-LOC
 https://t.co/CsIKZY2RGc O
 
