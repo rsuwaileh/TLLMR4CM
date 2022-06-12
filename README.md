@@ -30,16 +30,24 @@ We adopted three types of datasets in our work: (1) _General-purpose NER dataset
 For reproducibility, you need to follow these steps:
 
 1. **Download the datasets** from the repository: Unfortunately, the crisis-related Twitter LMR datasets are licensed and have to be requested from the corresponding authors [3-4]. 
-2. **Preprocess the datasets**: You need to convert the datasets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted on our side before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets, we can share with you the preprocessed and partitioned data that we have.
+2. **Preprocess the datasets**: You need to convert the datasets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted on our side before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets (check contact information below), we can share with you the preprocessed and partitioned data that we have.
 
 
 ## The LMR model:
 We employed the NER BERT-based model from [HuggingFace](https://huggingface.co/) library. To run this model, follow the steps in [this forked version](https://github.com/rsuwaileh/transformers/tree/master/examples/ner).
 
-You download the best zero-shot performing models from [models](https://github.com/rsuwaileh/TLLMR4CM/tree/main/data) directory. These models trained using `Combined.joint` setup for each disaster. The models' naming format is `Combined.joint-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
+You can download the best zero-shot models (evaluated using F<sub>1</sub> score) that are trained under the `Combined.joint` setup for each disaster. The models' naming format is `lmr-bert-<dataset>-e<#epochs>-b<#training_batches>-lr<learning_rate>.gz`. 
 
 - The `dataset` is the 2-char code of the affected area by the target disaster: `ch`, `ho`, `lo`, `ny`, and `nz` refer to `Chennai floods 2015`, `Houston floods 2016`, `Louisiana floods 2016`, `Hurricane Sandy 2012`, and `Christchurch earthquake 2012` disaster events.  
 - The `#epochs`, `#training_batches`, and `learning_rate` are the best hyperparameters for each model with the default `seed = 42`. 
+
+| Target Event | `#epochs` | `#training_batches` | `learning_rate` | Download |
+|:-|:-|:-|:-|:-|
+| Chennai floods 2015 | 2 | 16 | 5e-5 | [lmr-bert-ch-e2-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/EQ8rkIXFgbFPu1tSObDeyOgB9q-sY4jk2MDXFXuQ9xYG_Q?e=VfERRR) |
+| Houston floods 2016 | 3 | 16 | 5e-5 | [lmr-bert-ho-e3-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/ETooV66h9pZKln6vPdfm2wsBTML4_gi31VR0FHqBbawGZg?e=h1bJRS) |
+| Louisiana floods 2016 | 4 | 32 | 5e-5 | [lmr-bert-lo-e4-b32-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/Eb5tTDOycLtOvpi-8uMlG2EB1Uw-FFWyjZJBHBUdhlqaOg?e=E2zL52) |
+| Hurricane Sandy 2012 | 3 | 16 | 5e-5 | [lmr-bert-ny-e3-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/EdWE4uVJHwpPimWJ8G95WtIB9g48bDhvHpMjb8p9spsnOQ?e=T8C7E1) |
+| Christchurch earthquake 2012 | 4 | 16 | 5e-5 | [lmr-bert-nz-e4-b16-lr5e-5](https://qucloud-my.sharepoint.com/:u:/g/personal/rs081123_qu_edu_qa/Ecrmyz_2LwVBtkEvtXzhYMkBTmJ7ZdhTVfxEuqsSXF008w?e=4pEwfd) |
 
 ## Publications
 ```
