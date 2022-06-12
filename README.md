@@ -1,9 +1,7 @@
 # When a Disaster Happens, We Are Ready: Location Mention Recognition from Crisis Tweets
 
-Towards addressing the problem of recognizing locations, i.e., Location Mention Recognition (LMR), within social media posts during such disasters, past studies mainly focused on proposing techniques that assume the availability of abundant training data at the disaster onset. In our work, we adopt the more realistic assumption that _no_ (i.e., zero-shot setting) or _as little as a few hundred_ examples (i.e., few-shot setting) from the just-occurred event is available for training. Specifically, we examine the effect of training a BERT-based LMR model on past events using different settings, datasets, languages, and geo-proximity. The extensive empirical analysis provides several insights for building an effective LMR model during disasters, including 
-1. Twitter crisis-related and location-specific data from geographically-nearby disaster events is more useful than all other combinations of training datasets in the zero-shot monolingual setting, 
-2. using as few as 263-356 training tweets from the target language (i.e., few-shot setting) remarkably boosts the performance in the cross- and multilingual settings, and 
-3. labeling about 500 target event tweets leads to an acceptable LMR performance, higher than F1 of 0.7, in the monolingual settings. Finally, we conduct an extensive error analysis and highlight issues related to the quality of the available datasets and weaknesses of the current model.
+The Location Mention Recognition (LMR) in social media posts during disasters has been studied under the assumption of "the abundance of training data" at the disaster onset. In our work, we adopted the more realistic assumption that _no_ (i.e., zero-shot setting) or _as little as a few hundred_ examples (i.e., few-shot setting) from the just-occurred event is available for training. Several factors were examined on their influence on a BERT-based LMR model perofrmance including the entity types, the data domain, the disaster domain, the language, and the geo-proximity of disaster events. More details in the cited publications below.
+
 
 **This repository provides the steps to reproduce the experiments that we reported in our publication.**
 
