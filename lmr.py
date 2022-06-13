@@ -215,12 +215,6 @@ def get_locations(gold_path, lmr_mode, model, device):
     #tow = [x for x in predictions]
     tow = copy.deepcopy(predictions)
     write_predictions(args["gold_path"], args["pred_path"], tow)
-    
-    #gk, gl, gt = get_predictions(args["gold_path"], [])
-    #print("**************************")
-    #print(gk)
-    #print(gl)
-    #print(gt)
 
     pk, pl, pt = get_predictions(args["pred_path"], predictions)
     print("**************************")
@@ -229,10 +223,8 @@ def get_locations(gold_path, lmr_mode, model, device):
     print(pt)
  
     
-    #g = []
     p = []
-    for i in range(len(gl)):
-        #g.append(["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])])
-        p.append(["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])])
+    for i in range(len(pl)):
+        p.append(["{}:{}".format(x, y) for x, y in zip(pl[i], pt[i])])
     
-    return gk, pk, g, p
+    return gk, pk, p
