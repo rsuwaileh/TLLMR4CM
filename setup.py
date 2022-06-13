@@ -21,7 +21,7 @@ setup(
     author='Reem A. Suwaileh',
     author_email='rs081123@qu.edu.qa',
     url='https://github.com/rsuwaileh/TLLMR4CM',
-    packages=find_packages(),
+    packages=['rl_starterpack'],
     package_data={'TLLMR4CM': ['data/hd-tb/*.txt']},
     install_requires=[
           'numpy==1.18.1',
@@ -32,3 +32,4 @@ setup(
           'seqeval==0.0.12'
       ]
 )
+#packages=find_packages(),
