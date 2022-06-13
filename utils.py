@@ -241,11 +241,11 @@ def prepare_preds(file_path, predictions):
             if len(predictions) == 0 :
                 l.append(line.split()[1])
             else:
-                print(len(predictions))
-                print(example_id)
-                print(predictions)
-                print(predictions[example_id])
-                print(i)
+                #print(len(predictions))
+                #print(example_id)
+                #print(predictions)
+                #print(predictions[example_id])
+                #print(i)
                 l.append(predictions[example_id][i])
 
 
