@@ -235,13 +235,9 @@ def prepare_preds(file_path, predictions):
                 l = []
                 i = 0
                 example_id += 1
-                #print(len(predictions[example_id]))
                 continue
-            #print(line.split()[0] + " " + predictions[example_id][i])
             t.append(line.split()[0])
-            
-            
-            
+                        
             if len(predictions) == 0 :
                 l.append(line.split()[1])
             else:
@@ -305,13 +301,16 @@ def write_predictions(gold_path, predictions_path, predictions):
     with open(predictions_path, "w") as writer:
         with open(gold_path, "r") as f:
             example_id = 0
+            i = 0
             for line in f:
                 if line.startswith("-DOCSTART-") or line == "" or line == "\n":
                     writer.write(line)
                     if not predictions[example_id]:
                         example_id += 1
+                        i = 0
                 elif predictions[example_id]:
-                    output_line = line.split()[0] + " " + predictions[example_id].pop(0) + "\n"
+                    output_line = line.split()[0] + " " + predictions[example_id][i] + "\n"
+                    i += 1
                     writer.write(output_line)
                 else:
                     #print("Maximum sequence length exceeded: No prediction for '%s'.", line.split()[0])
