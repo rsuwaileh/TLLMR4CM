@@ -164,9 +164,6 @@ def load_examples(args, tokenizer, labels, pad_token_label_id):
         pad_token_segment_id=4 if args["model_type"] in ["xlnet"] else 0,
         pad_token_label_id=pad_token_label_id,
     )
-    if args["local_rank"] in [-1, 0]:
-        print("Saving features into cached file %s", cached_features_file)
-        torch.save(features, cached_features_file)
 
     if args["local_rank"] == 0 and not evaluate:
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
