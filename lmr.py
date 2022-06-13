@@ -82,7 +82,7 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
 
     # Eval!
     print("***** Running evaluation {} *****".format(prefix))
-    print("  Num examples = {}".format(str(len(eval_dataset)))
+    print("  Num examples = {}".format(str(len(eval_dataset))))
     #print("  Batch size = {}".format(args["eval_batch_size"]))
     eval_loss = 0.0
     nb_eval_steps = 0
