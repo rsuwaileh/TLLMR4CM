@@ -28,7 +28,6 @@ class InputExample(object):
 
     def __init__(self, guid, words, labels):
         """Constructs a InputExample.
-
         Args:
             guid: Unique id for the example.
             words: list. The words of the sequence.
@@ -54,20 +53,14 @@ def read_examples_from_file(data_dir, mode):
     file_path = os.path.join(data_dir, "{}.txt".format(mode))
     guid_index = 1
     examples = []
-    all_words = []
-    all_labels = []
     with open(file_path, encoding="utf-8") as f:
         words = []
         labels = []
-        #print(f)
         for line in f:
-            #print(line)
             if line.startswith("-DOCSTART-") or line == "" or line == "\n":
                 if words:
                     examples.append(InputExample(guid="{}-{}".format(mode, guid_index), words=words, labels=labels))
                     guid_index += 1
-                    all_words.append(words)
-                    all_labels.append(labels)
                     words = []
                     labels = []
             else:
@@ -80,7 +73,7 @@ def read_examples_from_file(data_dir, mode):
                     labels.append("O")
         if words:
             examples.append(InputExample(guid="{}-{}".format(mode, guid_index), words=words, labels=labels))
-    return examples, all_words, all_labels
+    return examples
 
 
 def convert_examples_to_features(
@@ -119,15 +112,9 @@ def convert_examples_to_features(
         for word, label in zip(example.words, example.labels):
             word_tokens = tokenizer.tokenize(word)
             tokens.extend(word_tokens)
-            logger.info("*** Reem logger: example.words: %s", " ".join([str(x) for x in example.words]))
-            logger.info("*** Reem logger: example.labels: %s", " ".join([str(x) for x in example.labels]))
-            logger.info("*** Reem logger: label_map.keys: %s", " ".join([str(x) for x in label_map.keys()]))
-            logger.info("*** Reem logger: label_map.values: %s", " ".join([str(x) for x in label_map.values()]))
-            logger.info("*** Reem logger: word: %s", word)
-            logger.info("*** Reem logger: label: %s", label)
-            logger.info("*** Reem logger: word_tokens: %s", " ".join([str(x) for x in word_tokens]))
-            logger.info("*** Reem logger: tokens: %s", " ".join([str(x) for x in tokens]))
             # Use the real label id for the first token of the word, and padding ids for the remaining tokens
+            #print(word + "\t" + label)
+            label_ids.extend([label_map[label]] + [pad_token_label_id] * (len(word_tokens) - 1))
             label_ids.extend([label_map[label]] + [pad_token_label_id] * (len(word_tokens) - 1))
 
         # Account for [CLS] and [SEP] with "- 2" and with "- 3" for RoBERTa.
@@ -190,24 +177,19 @@ def convert_examples_to_features(
             segment_ids += [pad_token_segment_id] * padding_length
             label_ids += [pad_token_label_id] * padding_length
 
-        #logger.info("*** Reem logger: label_ids: %s", " ".join([str(x) for x in label_ids]))
-        #logger.info("*** Reem logger: tokens: %s", " ".join([str(x) for x in tokens]))
-        #logger.info("*** Reem logger: example.words: %s", " ".join([str(x) for x in example.words]))
-        #logger.info("*** Reem logger: example.labels: %s", " ".join([str(x) for x in example.labels]))
-        #logger.info("*** Reem logger: label_ids.size: %d", len(label_ids))
-        #logger.info("*** Reem logger: max_seq_length: %d", max_seq_length)
-
         assert len(input_ids) == max_seq_length
         assert len(input_mask) == max_seq_length
         assert len(segment_ids) == max_seq_length
+        assert len(label_ids) == max_seq_length
+        
         print(len(input_ids))
         print(len(input_mask))
         print(len(segment_ids))
         print(len(label_ids))
-        print(max_seq_length)
+        
         print(label_ids)
         print(tokens)
-        assert len(label_ids) == max_seq_length
+        
 
         if ex_index < 5:
             logger.info("*** Example ***")
