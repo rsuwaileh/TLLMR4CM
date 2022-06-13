@@ -180,7 +180,7 @@ def convert_examples_to_features(
         #print(len(input_ids))
         #print(len(input_mask))
         #print(len(segment_ids))
-        print(tokens)
+        #print(tokens)
         #print(label_ids)
         #print(len(label_ids))
         label_ids = label_ids[:max_seq_length]
@@ -216,3 +216,69 @@ def get_labels(path):
         return labels
     else:
         return ["O", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC"]
+
+def prepare_preds(args, predictions):
+    tokens = []
+    labels = []
+    t = []
+    l = []
+    with open(os.path.join(args["data_dir"], "test.txt"), "r") as f:
+        example_id = 0
+        i = 0
+        for line in f:
+            if example_id == len(predictions):
+                break
+            if len(line.split()) < 2:
+                #print()
+                tokens.append(t)
+                labels.append(l)
+                t = []
+                l = []
+                i = 0
+                example_id += 1
+                #print(len(predictions[example_id]))
+                continue
+            #print(line.split()[0] + " " + predictions[example_id][i])
+            t.append(line.split()[0])
+            l.append(predictions[example_id][i])
+            i += 1
+    return text, tokens, labels
+    
+def show_predictions(args, predictions):
+    tokens, labels = prepare_preds(args, predictions)
+    locs = []
+    typs = []
+    for i in range(len(tokens)):
+        loc = ""
+        typ = ""
+        local_locs = []
+        local_typs = []
+        for j in range(len(tokens[i])):
+            if "U-" in labels[i][j]:
+                loc = tokens[i][j]
+                local_locs.append(loc)
+                typ = types[labels[i][j].split("-")[1]]
+                local_typs.append(typ)
+                loc = ""
+                typ = ""
+            elif "B-" in labels[i][j]: #malformed BIO-LM will be ignored
+                loc = tokens[i][j]
+                typ = types[labels[i][j].split("-")[1]]
+            elif "I-" in labels[i][j]:
+                if loc == "": #malformed BIO-LM will be ignored
+                    continue 
+                loc += " " + tokens[i][j]
+            elif "L-" in labels[i][j]:
+                if loc == "": #malformed BIO-LM will be ignored
+                    continue 
+                loc += " " + tokens[i][j]
+                local_locs.append(loc)
+                local_typs.append(typ)
+                loc = ""
+                typ = ""
+            else:
+                loc = ""  #malformed BIO-LM will be ignored
+                typ = ""
+        locs.append(local_locs)
+        typs.append(local_typs)
+    return tokens, locs, typs
