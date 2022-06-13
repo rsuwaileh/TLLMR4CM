@@ -21,6 +21,7 @@ import glob
 import logging
 import os
 import random
+import copy
 
 import numpy as np
 import torch
@@ -212,12 +213,13 @@ def get_locations(gold_path, lmr_mode, model, device):
     print(predictions)
     
     #tow = [x for x in predictions]
-    
-    #write_predictions(args["gold_path"], args["pred_path"], tow)
+    tow = copy.deepcopy(predictions)
+    write_predictions(args["gold_path"], args["pred_path"], tow)
     
     pk, pl, pt = get_predictions(args["pred_path"], predictions)
     gk, gl, gt = get_predictions(args["gold_path"], [])
-    g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
-    p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
+    for i in range(len(gl)):
+        g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
+        p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
     
     return pk, gk, g, p 
