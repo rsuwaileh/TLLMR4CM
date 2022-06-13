@@ -7,7 +7,7 @@ death O
 toll O
 rises O
 in O
-Bahamas U-QTRY
+Bahamas U-CTRY
 
 Could O
 everyone O
