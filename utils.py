@@ -216,12 +216,12 @@ def get_labels(path):
     else:
         return ["O", "B-MISC", "I-MISC", "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC"]
 
-def prepare_preds(args, predictions):
+def prepare_preds(file_path, predictions):
     tokens = []
     labels = []
     t = []
     l = []
-    with open(os.path.join(args["data_dir"], "test.txt"), "r") as f:
+    with open(file_path, "r") as f:
         example_id = 0
         i = 0
         for line in f:
@@ -244,11 +244,11 @@ def prepare_preds(args, predictions):
     return tokens, labels
 
       
-def show_predictions(args, predictions):
+def show_predictions(file_path, predictions):
     types = {"ISL": "Island", "STAT": "State", "CONT": "Continent", "CITY": "City/town", "CTRY": "Country",
         "CNTY": "County", "NBHD": "Neighborhood", "ST": "Road/street", "DIST": "District", "OTHR": "Other locations", 
         "NPOI": "Natural Point-of-Interest", "HPOI": "Human-made Point-of-Interest"}
-    tokens, labels = prepare_preds(args, predictions)
+    tokens, labels = prepare_preds(file_path, predictions)
     locs = []
     typs = []
     for i in range(len(tokens)):

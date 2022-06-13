@@ -177,7 +177,7 @@ def load_examples(args, tokenizer, labels, pad_token_label_id):
     dataset = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids)
     return dataset
 
-def get_locations(text_file, lmr_mode, model, device):
+def get_locations(gold_path, lmr_mode, model, device):
     #some of the parametres need to be removed
     args = {
         "model_type" : "bert",
@@ -194,7 +194,8 @@ def get_locations(text_file, lmr_mode, model, device):
     }
     args["device"] = device
     #args["n_gpu"] = 0 if args["no_cuda"] else torch.cuda.device_count()
-    args["text_file"] = text_file
+    args["gold_path"] = gold_path #text_file
+    args["pred_path"] = gold_path.replace(".txt", "_predictions.txt")
 
 
     #from TLLMR4CM import set_seed
@@ -207,8 +208,10 @@ def get_locations(text_file, lmr_mode, model, device):
     tokenizer = BertTokenizer.from_pretrained(args["tokenizer_name"])
     result, predictions, gold = evaluate(args, model, tokenizer, labels, pad_token_label_id)
     
-    pk, pl, pt = show_predictions(args, predictions)
-    gk, gl, gt = show_predictions(args, gold)
+    write_predictions(gold_path, pred_path, predictions)
+    
+    pk, pl, pt = show_predictions(pred_path, predictions)
+    gk, gl, gt = show_predictions(gold_path, gold)
     g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
     p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
     
