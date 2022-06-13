@@ -144,8 +144,8 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
 def load_examples(args, tokenizer, labels, pad_token_label_id):
     if args["local_rank"] not in [-1, 0] and not evaluate:
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
-    print("Creating features from dataset file at %s", args["text_file"])
-    examples = read_examples_from_file(args["text_file"], "test")
+    print("Creating features from dataset file at %s", args["gold_path"])
+    examples = read_examples_from_file(args["gold_path"], "test")
     features = convert_examples_to_features(
         examples,
         labels,
