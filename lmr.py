@@ -145,7 +145,7 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
 def load_examples(args, tokenizer, labels, pad_token_label_id):
     if args["local_rank"] not in [-1, 0] and not evaluate:
         torch.distributed.barrier()  # Make sure only the first process in distributed training process the dataset, and the others will use the cache
-    print("Creating features from dataset file at %s", args["gold_path"])
+    #print("Creating features from dataset file at %s", args["gold_path"])
     examples = read_examples_from_file(args["gold_path"], "test")
     features = convert_examples_to_features(
         examples,
@@ -222,18 +222,18 @@ def get_locations(gold_path, lmr_mode, model, device):
     tokenizer = BertTokenizer.from_pretrained(args["tokenizer_name"])
     result, predictions = evaluate(args, model, tokenizer, labels, pad_token_label_id)
     
-    print(result)
-    print(predictions)
+    #print(result)
+    #print(predictions)
     
     #tow = [x for x in predictions]
     tow = copy.deepcopy(predictions)
     write_predictions(args["gold_path"], args["pred_path"], tow)
 
     pk, pl, pt = get_predictions(args["pred_path"], predictions)
-    print("**************************")
-    print(pk)
-    print(pl)
-    print(pt)
+    #print("**************************")
+    #print(pk)
+    #print(pl)
+    #print(pt)
  
     
     p = []
