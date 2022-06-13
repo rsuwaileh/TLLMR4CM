@@ -7,7 +7,7 @@ death O
 toll O
 rises O
 in O
-Bahamas U-ISL
+Bahamas U-QTRY
 
 Could O
 everyone O
@@ -94,9 +94,9 @@ released O
 by O
 friends O
 of O
-Green B-CITY
-Turtle I-CITY
-Cay L-CITY
+Green B-ISL
+Turtle I-ISL
+Cay L-ISL
 shows O
 how O
 # O
@@ -104,9 +104,9 @@ HurricaneDorian O
 destroyed O
 Abacos U-ISL
 and O
-Grand B-ISL
+Grand U-ISL
 , O
-Bahamas U-ISL
+Bahamas U-CTRY
 . O
 
 Dorians O
@@ -141,6 +141,7 @@ Island L-ISL
 from O
 Kinston U-CITY
 . O
+https://t.co/E8g3AjSb6o O
 
 More O
 damage O
@@ -159,8 +160,8 @@ across O
 the O
 street O
 from O
-Northeastern O
-High L-HPOI
+Northeastern B-HPOI
+High I-HPOI
 School L-HPOI
 where O
 a O
