@@ -38,7 +38,7 @@ from transformers import (
     BertTokenizer,
     get_linear_schedule_with_warmup,
 )
-from utils import convert_examples_to_features, read_examples_from_file, show_predictions, write_predictions
+from utils import convert_examples_to_features, read_examples_from_file, get_predictions, write_predictions
 
 
 try:
@@ -138,7 +138,7 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
     for key in sorted(results.keys()):
         print("  {} = {}".format(key, str(results[key])))
 
-    return results, preds_list, out_label_list
+    return results, preds_list
 
 
 def load_examples(args, tokenizer, labels, pad_token_label_id):
@@ -206,16 +206,15 @@ def get_locations(gold_path, lmr_mode, model, device):
     pad_token_label_id = CrossEntropyLoss().ignore_index
     
     tokenizer = BertTokenizer.from_pretrained(args["tokenizer_name"])
-    result, predictions, gold = evaluate(args, model, tokenizer, labels, pad_token_label_id)
+    result, predictions = evaluate(args, model, tokenizer, labels, pad_token_label_id)
     
     print(result)
     print(predictions)
-    print(gold)
     
     write_predictions(args["gold_path"], args["pred_path"], predictions)
     
-    pk, pl, pt = show_predictions(args["pred_path"], predictions)
-    gk, gl, gt = show_predictions(args["gold_path"], gold)
+    pk, pl, pt = get_predictions(args["pred_path"], predictions)
+    gk, gl, gt = get_predictions(args["gold_path"], [])
     g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
     p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
     
