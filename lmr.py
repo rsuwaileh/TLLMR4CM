@@ -81,8 +81,8 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
         model = torch.nn.DataParallel(model)
 
     # Eval!
-    print("***** Running evaluation {} *****".format(prefix))
-    print("  Num examples = {}".format(str(len(eval_dataset))))
+    #print("***** Running evaluation {} *****".format(prefix))
+    #print("  Num examples = {}".format(str(len(eval_dataset))))
     #print("  Batch size = {}".format(args["eval_batch_size"]))
     eval_loss = 0.0
     nb_eval_steps = 0
@@ -134,7 +134,7 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
         "f1": f1_score(out_label_list, preds_list),
     }
 
-    print("***** Eval results {} *****".format(prefix))
+    print("Eval results {} *****".format(prefix))
     for key in sorted(results.keys()):
         print("  {} = {}".format(key, str(results[key])))
 
@@ -211,7 +211,7 @@ def get_locations(gold_path, lmr_mode, model, device):
     print(result)
     print(predictions)
     
-    tow = predictions
+    tow = [x for x in predictions]
     
     write_predictions(args["gold_path"], args["pred_path"], tow)
     
