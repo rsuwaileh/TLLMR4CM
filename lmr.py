@@ -221,6 +221,7 @@ def get_locations(text_file, lmr_mode, model, device):
         "local_rank": 0
     }
     args["device"] = device
+    #args["n_gpu"] = 0 if args["no_cuda"] else torch.cuda.device_count()
     args["text_file"] = text_file
 
 
