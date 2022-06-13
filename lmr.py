@@ -135,9 +135,9 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
         "f1": f1_score(out_label_list, preds_list),
     }
 
-    print("Eval results {} *****".format(prefix))
-    for key in sorted(results.keys()):
-        print("  {} = {}".format(key, str(results[key])))
+    #print("Eval results {} *****".format(prefix))
+    #for key in sorted(results.keys()):
+    #    print("  {} = {}".format(key, str(results[key])))
 
     return results, preds_list
 
@@ -217,7 +217,19 @@ def get_locations(gold_path, lmr_mode, model, device):
     write_predictions(args["gold_path"], args["pred_path"], tow)
     
     pk, pl, pt = get_predictions(args["pred_path"], predictions)
+    print("**************************")
+    print(pk)
+    print(pl)
+    print(pt)
+    
+    
     gk, gl, gt = get_predictions(args["gold_path"], [])
+    print("**************************")
+    print(gk)
+    print(gl)
+    print(gt)
+        
+    
     g = []
     p = []
     for i in range(len(gl)):
