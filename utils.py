@@ -243,8 +243,12 @@ def prepare_preds(args, predictions):
             l.append(predictions[example_id][i])
             i += 1
     return tokens, labels
-    
+
+      
 def show_predictions(args, predictions):
+    types = {"ISL": "Island", "STAT": "State", "CONT": "Continent", "CITY": "City/town", "CTRY": "Country",
+        "CNTY": "County", "NBHD": "Neighborhood", "ST": "Road/street", "DIST": "District", "OTHR": "Other locations", 
+        "NPOI": "Natural Point-of-Interest", "HPOI": "Human-made Point-of-Interest"}
     tokens, labels = prepare_preds(args, predictions)
     locs = []
     typs = []
