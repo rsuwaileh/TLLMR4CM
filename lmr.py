@@ -218,8 +218,10 @@ def get_locations(gold_path, lmr_mode, model, device):
     
     pk, pl, pt = get_predictions(args["pred_path"], predictions)
     gk, gl, gt = get_predictions(args["gold_path"], [])
+    g = []
+    p = []
     for i in range(len(gl)):
-        g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
-        p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
+        g.append(["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])])
+        p.append(["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])])
     
     return pk, gk, g, p 
