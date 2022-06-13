@@ -211,9 +211,9 @@ def get_locations(gold_path, lmr_mode, model, device):
     print(result)
     print(predictions)
     
-    tow = [x for x in predictions]
+    #tow = [x for x in predictions]
     
-    write_predictions(args["gold_path"], args["pred_path"], tow)
+    #write_predictions(args["gold_path"], args["pred_path"], tow)
     
     pk, pl, pt = get_predictions(args["pred_path"], predictions)
     gk, gl, gt = get_predictions(args["gold_path"], [])
