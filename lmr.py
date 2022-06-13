@@ -232,7 +232,7 @@ def get_locations(text_file, lmr_mode, model, device):
     # Use cross entropy ignore index as padding label id so that only real label ids contribute to the loss later
     pad_token_label_id = CrossEntropyLoss().ignore_index
     
-    tokenizer = BertTokenizer.from_pretrained("tokenizer_name")
+    tokenizer = BertTokenizer.from_pretrained(args["tokenizer_name"])
     result, predictions, gold = evaluate(args, model, tokenizer, labels, pad_token_label_id)
     
     pk, pl, pt = utils.show_predictions(args, predictions)
