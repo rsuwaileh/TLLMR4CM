@@ -40,7 +40,7 @@ from transformers import (
     get_linear_schedule_with_warmup,
 )
 from utils import convert_examples_to_features, read_examples_from_file, get_predictions, write_predictions
-
+from prepare_data import convert_txt2biolike, convert_tsv2biolike
 
 try:
     from torch.utils.tensorboard import SummaryWriter
@@ -179,6 +179,15 @@ def load_examples(args, tokenizer, labels, pad_token_label_id):
     return dataset
 
 def get_locations(gold_path, lmr_mode, model, device):
+    
+    if ".tsv" in gold_path:
+        convert_tsv2biolike(gold_path)
+        gold_path = gold_path.replace(".tsv", "-biolike.txt")
+    elif ".txt" in gold_path:
+        convert_txt2biolike(gold_path)
+        gold_path = gold_path.replace(".txt", "-biolike.txt")
+    else: #bio files ".conll"
+        gold_path = gold_path   
     #some of the parametres need to be removed
     args = {
         "model_type" : "bert",
@@ -225,6 +234,6 @@ def get_locations(gold_path, lmr_mode, model, device):
     
     p = []
     for i in range(len(pl)):
-        p.append(["{}:{}".format(x, y) for x, y in zip(pl[i], pt[i])])
+        p.append(["{}: {}\t".format(x, y) for x, y in zip(pl[i], pt[i])])
     
     return pk, p
