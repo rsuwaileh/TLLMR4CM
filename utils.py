@@ -240,14 +240,15 @@ def prepare_preds(file_path, predictions):
             #print(line.split()[0] + " " + predictions[example_id][i])
             t.append(line.split()[0])
             
-            print(len(predictions))
-            print(example_id)
-            #print(predictions[example_id])
-            print(i)
+            
             
             if len(predictions) == 0 :
                 l.append(line.split()[1])
             else:
+                print(len(predictions))
+                print(example_id)
+                #print(predictions[example_id])
+                print(i)
                 l.append(predictions[example_id][i])
 
 
