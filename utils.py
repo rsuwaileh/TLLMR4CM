@@ -242,7 +242,7 @@ def prepare_preds(file_path, predictions):
             
             print(len(predictions))
             print(example_id)
-            print(predictions[example_id])
+            #print(predictions[example_id])
             print(i)
             
             if len(predictions) == 0 :
