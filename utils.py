@@ -239,6 +239,10 @@ def prepare_preds(file_path, predictions):
                 continue
             #print(line.split()[0] + " " + predictions[example_id][i])
             t.append(line.split()[0])
+            print(len(predictions))
+            print(example_id)
+            print(predictions[example_id])
+            print(i)
             l.append(predictions[example_id][i])
             i += 1
     return tokens, labels
@@ -297,11 +301,12 @@ def write_predictions(gold_path, predictions_path, predictions):
                     writer.write(line)
                     if not predictions[example_id]:
                         example_id += 1
-                elif predictions[example_id]:
+                else predictions[example_id]:
                     output_line = line.split()[0] + " " + predictions[example_id].pop(0) + "\n"
                     writer.write(output_line)
-                else:
-                    print("Maximum sequence length exceeded: No prediction for '%s'.", line.split()[0])
+                #else:
+                    #print("Maximum sequence length exceeded: No prediction for '%s'.", line.split()[0])
+                    
 
 
 def write_results(results_path, result):
