@@ -183,6 +183,7 @@ def get_locations(gold_path, lmr_mode, model, device):
     if ".tsv" in gold_path:
         convert_tsv2biolike(gold_path)
         gold_path = gold_path.replace(".tsv", "-biolike.txt")
+        
     elif ".txt" in gold_path:
         convert_txt2biolike(gold_path)
         gold_path = gold_path.replace(".txt", "-biolike.txt")
@@ -203,12 +204,15 @@ def get_locations(gold_path, lmr_mode, model, device):
         "local_rank": -1
     }
     args["device"] = device
-    #args["n_gpu"] = 0 if args["no_cuda"] else torch.cuda.device_count()
-    args["gold_path"] = gold_path #text_file
-    args["pred_path"] = gold_path.replace(".txt", "_predictions.txt")
+    
+    if ".conll" in gold_path:
+        args["gold_path"] = gold_path #text_file
+        args["pred_path"] = gold_path.replace(".conll", "_predictions.txt")
+    else:
+        args["gold_path"] = gold_path #text_file
+        args["pred_path"] = gold_path.replace(".txt", "_predictions.txt")
 
 
-    #from TLLMR4CM import set_seed
     set_seed(args)
     labels = get_labels(lmr_mode)
     num_labels = len(labels)
