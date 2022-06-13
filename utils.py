@@ -49,11 +49,10 @@ class InputFeatures(object):
         self.label_ids = label_ids
 
 
-def read_examples_from_file(data_dir, mode):
-    file_path = os.path.join(data_dir, "{}.txt".format(mode))
-    guid_index = 1
+def read_examples_from_file(text_file, mode):
+    guid_index = 1   
     examples = []
-    with open(file_path, encoding="utf-8") as f:
+    with open(text_file, encoding="utf-8") as f:
         words = []
         labels = []
         for line in f:
