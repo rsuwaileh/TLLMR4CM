@@ -227,4 +227,4 @@ def get_locations(gold_path, lmr_mode, model, device):
     for i in range(len(pl)):
         p.append(["{}:{}".format(x, y) for x, y in zip(pl[i], pt[i])])
     
-    return gk, pk, p
+    return pk, p
