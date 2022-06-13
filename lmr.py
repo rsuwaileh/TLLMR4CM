@@ -38,7 +38,7 @@ from transformers import (
     BertTokenizer,
     get_linear_schedule_with_warmup,
 )
-from utils import convert_examples_to_features, read_examples_from_file
+from utils import convert_examples_to_features, read_examples_from_file, show_predictions
 
 
 try:
@@ -81,9 +81,9 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
         model = torch.nn.DataParallel(model)
 
     # Eval!
-    print("***** Running evaluation %s *****", prefix)
-    print("  Num examples = %d", len(eval_dataset))
-    print("  Batch size = %d", args["eval_batch_size"])
+    print("***** Running evaluation {} *****".format(prefix))
+    print("  Num examples = {}".format(str(len(eval_dataset)))
+    #print("  Batch size = {}".format(args["eval_batch_size"]))
     eval_loss = 0.0
     nb_eval_steps = 0
     preds = None
@@ -134,9 +134,9 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, prefix=""):
         "f1": f1_score(out_label_list, preds_list),
     }
 
-    print("***** Eval results %s *****", prefix)
+    print("***** Eval results {} *****".format(prefix))
     for key in sorted(results.keys()):
-        print("  %s = %s", key, str(results[key]))
+        print("  {} = {}".format(key, str(results[key])))
 
     return results, preds_list, out_label_list
 
@@ -177,31 +177,6 @@ def load_examples(args, tokenizer, labels, pad_token_label_id):
     dataset = TensorDataset(all_input_ids, all_input_mask, all_segment_ids, all_label_ids)
     return dataset
 
-
-def write_predictions(gold_path, predictions_path, predictions):
-    output_test_predictions_file = predictions_path
-    with open(predictions_path, "w") as writer:
-        with open(gold_path, "r") as f:
-            example_id = 0
-            for line in f:
-                if line.startswith("-DOCSTART-") or line == "" or line == "\n":
-                    writer.write(line)
-                    if not predictions[example_id]:
-                        example_id += 1
-                elif predictions[example_id]:
-                    output_line = line.split()[0] + " " + predictions[example_id].pop(0) + "\n"
-                    writer.write(output_line)
-                else:
-                    print("Maximum sequence length exceeded: No prediction for '%s'.", line.split()[0])
-
-
-def write_results(results_path, result):
-    # Save results
-    with open(results_path, "w") as writer:
-        for key in sorted(result.keys()):
-            writer.write("{} = {}\n".format(key, str(result[key])))
-
-
 def get_locations(text_file, lmr_mode, model, device):
     #some of the parametres need to be removed
     args = {
@@ -232,8 +207,8 @@ def get_locations(text_file, lmr_mode, model, device):
     tokenizer = BertTokenizer.from_pretrained(args["tokenizer_name"])
     result, predictions, gold = evaluate(args, model, tokenizer, labels, pad_token_label_id)
     
-    pk, pl, pt = utils.show_predictions(args, predictions)
-    gk, gl, gt = utils.show_predictions(args, gold)
+    pk, pl, pt = show_predictions(args, predictions)
+    gk, gl, gt = show_predictions(args, gold)
     g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
     p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
     
