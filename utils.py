@@ -242,7 +242,7 @@ def prepare_preds(args, predictions):
             t.append(line.split()[0])
             l.append(predictions[example_id][i])
             i += 1
-    return text, tokens, labels
+    return tokens, labels
     
 def show_predictions(args, predictions):
     tokens, labels = prepare_preds(args, predictions)
