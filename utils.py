@@ -180,7 +180,7 @@ def convert_examples_to_features(
         #print(len(input_ids))
         #print(len(input_mask))
         #print(len(segment_ids))
-        #print(tokens)
+        print(tokens)
         #print(label_ids)
         #print(len(label_ids))
         label_ids = label_ids[:max_seq_length]
