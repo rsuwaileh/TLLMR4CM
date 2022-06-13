@@ -208,10 +208,10 @@ def get_locations(gold_path, lmr_mode, model, device):
     tokenizer = BertTokenizer.from_pretrained(args["tokenizer_name"])
     result, predictions, gold = evaluate(args, model, tokenizer, labels, pad_token_label_id)
     
-    write_predictions(gold_path, pred_path, predictions)
+    write_predictions(args["gold_path"], args["pred_path"], predictions)
     
-    pk, pl, pt = show_predictions(pred_path, predictions)
-    gk, gl, gt = show_predictions(gold_path, gold)
+    pk, pl, pt = show_predictions(args["pred_path"], predictions)
+    gk, gl, gt = show_predictions(args["gold_path"], gold)
     g = ["{}:{}\t".format(x, y) for x, y in zip(gl[i], gt[i])]
     p = ["{}:{}\t".format(x, y) for x, y in zip(pl[i], pt[i])]
     
