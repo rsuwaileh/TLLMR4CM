@@ -80,7 +80,6 @@ def text_data(path):
 
 def dump_biolike(out_path, tokens, labels):
     writer = open(out_path, 'w', encoding='utf-8', newline="")
-    
     for i in range(len(tokens)):
         for j in range(len(tokens[i])):
             writer.write(tokens[i][j] + " " + labels[i][j] + "\n")
@@ -88,11 +87,25 @@ def dump_biolike(out_path, tokens, labels):
 
 
 def convert_txt2biolike(txt_path):
-	tokens, labels = text_data(txt_path)
+    tokens, labels = text_data(txt_path)
     dump_biolike(txt_path.replace(".txt", "-biolike.txt"), tokens, labels)
-        
+
 
 def convert_tsv2biolike(tsv_path):
-	tokens, labels = read_unannotated_data(tsv_path)
+    tokens, labels = read_unannotated_data(tsv_path)
     dump_biolike(json_path.replace(".tsv", "-biolike.txt"), tokens, labels)
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
