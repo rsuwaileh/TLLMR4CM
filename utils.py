@@ -301,12 +301,12 @@ def write_predictions(gold_path, predictions_path, predictions):
                     writer.write(line)
                     if not predictions[example_id]:
                         example_id += 1
-                else predictions[example_id]:
+                elif predictions[example_id]:
                     output_line = line.split()[0] + " " + predictions[example_id].pop(0) + "\n"
                     writer.write(output_line)
-                #else:
+                else:
                     #print("Maximum sequence length exceeded: No prediction for '%s'.", line.split()[0])
-                    
+                    continue
 
 
 def write_results(results_path, result):
