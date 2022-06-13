@@ -247,7 +247,8 @@ def prepare_preds(file_path, predictions):
             else:
                 print(len(predictions))
                 print(example_id)
-                #print(predictions[example_id])
+                print(predictions)
+                print(predictions[example_id])
                 print(i)
                 l.append(predictions[example_id][i])
 
