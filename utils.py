@@ -226,7 +226,10 @@ def prepare_preds(file_path, predictions):
         i = 0
         for line in f:
             if example_id == len(predictions):
-                break
+                if len(predictions) == 0:
+                    continue
+                else:
+                    break
             if len(line.split()) < 2:
                 #print()
                 tokens.append(t)
