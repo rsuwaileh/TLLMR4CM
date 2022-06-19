@@ -93,7 +93,7 @@ def convert_txt2biolike(txt_path):
 
 def convert_tsv2biolike(tsv_path):
     tokens, labels = read_unannotated_data(tsv_path)
-    dump_biolike(json_path.replace(".tsv", "-biolike.txt"), tokens, labels)
+    dump_biolike(tsv_path.replace(".tsv", "-biolike.txt"), tokens, labels)
      
      
      
