@@ -1,2 +1,3 @@
+tweet_id	date	text	label	toponyms
 1169671419103457280	2019-09-05	New video/photos released by friends of Green Turtle Cay shows how #HurricaneDorian destroyed Abacos and Grand, Bahamas. https://t.co/DbDHg0Cd2C	infrastructure_and_utilities_damage	{'Green Turtle Cay': 'City/town', 'Abacos': 'Island', 'Bahamas': 'Island'}
 1169972745125400577	2019-09-06	More damage from #HurricaneDorian in Elizabeth City, NC. @AllisonWTKR is across the street from Northeastern High School where a large tree crashed down. @WTKR3 https://t.co/Xl5wJEUt16 https://t.co/pXq0ulqBmY	infrastructure_and_utilities_damage	{'Elizabeth': 'City/town', 'NC': 'State'}
