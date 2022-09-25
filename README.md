@@ -28,7 +28,7 @@ We adopted three types of datasets in our work: (1) _General-purpose NER dataset
 For reproducibility, you need to follow these steps:
 
 1. **Download the datasets** from the repository: Unfortunately, the crisis-related Twitter LMR datasets are licensed and have to be requested from the corresponding authors [3-4]. 
-2. **Preprocess the datasets**: You need to convert the datasets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted on our side before running the LMR model. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets (check contact information below), we can share with you the preprocessed and partitioned data that we have.
+2. **Preprocess the datasets**: You need to convert the datasets into BILOU format and partition the datasets. Both CoNLL-2003 and BTC datasets are preprocessed and ready for download in this repository. Unfortunately, the preparation steps involve manual curation conducted on our side before running the LMR model, in addition to filtering out all hashtags used to collect the datasets, thus limiting their effect towards biasing the learnable models during training. Thus, to make the results reproducible, once you confirm that you acquired the crisis-related Twitter LMR datasets (check contact information below), we can share with you the preprocessed and partitioned data that we have.
 
 
 ## The LMR model:
